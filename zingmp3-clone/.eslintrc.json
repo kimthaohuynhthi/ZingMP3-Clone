@@ -34,6 +34,7 @@
         "arrow-parens": [2, "as-needed"],
         "object-curly-newline": ["error", {"multiline": true}],
         "no-undef":"off",
-        "color-no-invalid-hex": 0
+        "color-no-invalid-hex": 0,
+        "semi":"off"
     }
 }

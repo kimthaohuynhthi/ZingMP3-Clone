@@ -23,6 +23,7 @@
         "react/jsx-one-expression-per-line": "off",
         "comma-dangle": ["error", "never"],
         "arrow-parens": [2, "as-needed"],
-        "object-curly-newline": ["error", {"multiline": true}]
+        "object-curly-newline": ["error", {"multiline": true}],
+        "linebreak-style": 0
     }
 }

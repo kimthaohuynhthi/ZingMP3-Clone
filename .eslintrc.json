@@ -31,10 +31,11 @@
         "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
         "react/jsx-one-expression-per-line": "off",
         "comma-dangle": ["error", "never"],
-        "arrow-parens": [2, "as-needed"],
+        "arrow-parens":"off",
         "object-curly-newline": ["error", {"multiline": true}],
         "no-undef":"off",
         "color-no-invalid-hex": 0,
-        "semi":"off"
+        "semi":"off",
+        "linebreak-style":"off"
     }
 }

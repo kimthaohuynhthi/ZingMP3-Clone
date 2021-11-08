@@ -1,7 +1,7 @@
-import React from 'react'
-import './style.scss'
+//libs
+import React from "react";
+//others
+import "./style.scss";
 
-function index() {
-  return <div className="hot-topic">HOT TOPIC</div>
-}
-export default index
+const HotTopic = () => <div className="hot-topic-wrapper">HOT TOPIC</div>;
+export default HotTopic;

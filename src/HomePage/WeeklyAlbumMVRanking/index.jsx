@@ -1,7 +1,9 @@
-import React from 'react'
-import './style.scss'
+//libs
+import React from "react";
+//others
+import "./style.scss";
 
-function index() {
-  return <div className="album-ranking">WEEKLY ALBUM RANKING</div>
-}
-export default index
+const WeeklyAlbumMVRanking = () => (
+  <div className="album-ranking-wrapper">WeeklyAlbumMVRanking</div>
+);
+export default WeeklyAlbumMVRanking;

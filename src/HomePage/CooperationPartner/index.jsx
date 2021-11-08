@@ -1,7 +1,9 @@
-import React from 'react'
-import './style.scss'
+//libs
+import React from "react";
+//others
+import "./style.scss";
 
-function index() {
-  return <div className="cooperation-partner">COOPERATION PARTNER</div>
-}
-export default index
+const CooperationPartner = () => (
+  <div className="cooperation-partner-wrapper">COOPERATION PARTNER</div>
+);
+export default CooperationPartner;

@@ -1,7 +1,9 @@
-import React from 'react'
-import './style.scss'
+//libs
+import React from "react";
+//others
+import "./style.scss";
 
-function index() {
-  return <div className="playlist-suggestion">PLAYLIST SUGGESTION</div>
-}
-export default index
+const PlaylistSuggestion = () => (
+  <div className="playlist-suggestion-wrapper">PlaylistSuggestion</div>
+);
+export default PlaylistSuggestion;

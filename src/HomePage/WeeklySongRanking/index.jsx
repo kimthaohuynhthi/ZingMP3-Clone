@@ -1,7 +1,9 @@
-import React from 'react'
-import './style.scss'
+//libs
+import React from "react";
+//others
+import "./style.scss";
 
-function index() {
-  return <div className="weekly-song-ranking">WEEKLY SONG RANKING</div>
-}
-export default index
+const WeeklySongRanking = () => (
+  <div className="weekly-song-ranking-wrapper">WeeklySongRanking</div>
+);
+export default WeeklySongRanking;

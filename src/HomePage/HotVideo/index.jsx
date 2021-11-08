@@ -1,7 +1,6 @@
-import React from 'react'
-import './style.scss'
+import React from "react";
+//others
+import "./style.scss";
 
-function index() {
-  return <div className="hot-video">HOT VIDEO</div>
-}
-export default index
+const HotVideo = () => <div className="hot-video-wrapper">HOT Video</div>;
+export default HotVideo;

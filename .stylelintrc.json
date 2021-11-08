@@ -1,5 +1,6 @@
 {
-    "extend": ["stylelint-config-standard","stylelint-config-recommended-scss"]  ,
+    "extend": ["stylelint-config-standard"],
+    "plugin": "stylelint-scss",
     "rules":{
         
     }

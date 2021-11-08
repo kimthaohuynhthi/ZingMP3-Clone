@@ -1,7 +1,7 @@
-import React from 'react'
-import './style.scss'
+//libs
+import React from "react";
+//others
+import "./style.scss";
 
-function index() {
-  return <div className="navbar">NAVBAR</div>
-}
-export default index
+const Navbar = () => <div className="navbar-wrapper">NAVBAR</div>;
+export default Navbar;

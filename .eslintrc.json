@@ -36,6 +36,8 @@
         "no-undef":"off",
         "color-no-invalid-hex": 0,
         "semi":"off",
-        "linebreak-style":"off"
+        "linebreak-style":"off",
+        "spaced-comment":"off",
+        "eol-last":"off"
     }
 }

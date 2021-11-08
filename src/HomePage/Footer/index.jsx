@@ -1,7 +1,7 @@
-import React from 'react'
-import './style.scss'
+//libs
+import React from "react";
+//others
+import "./style.scss";
 
-function index() {
-  return <div className="footer">FOOTER</div>
-}
-export default index
+const Footer = () => <div className="footer-wrapper">FOOTER</div>;
+export default Footer;

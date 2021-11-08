@@ -30,12 +30,15 @@
         "react/jsx-props-no-spreading": "off",
         "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
         "react/jsx-one-expression-per-line": "off",
-        "comma-dangle": ["error", "never"],
+        "comma-dangle": "off",
         "arrow-parens":"off",
-        "object-curly-newline": ["error", {"multiline": true}],
+        "object-curly-newline": "off",
         "no-undef":"off",
         "color-no-invalid-hex": 0,
         "semi":"off",
-        "linebreak-style":"off"
+        "linebreak-style":"off",
+        "spaced-comment":"off",
+        "eol-last":"off",
+        "quotes":"off"
     }
 }

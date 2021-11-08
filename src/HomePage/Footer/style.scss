@@ -1,5 +1,6 @@
-.footer {
+.footer-wrapper {
   height: 120px;
   text-align: center;
-  background-color: #222428
+  background-color: #222428;
+  grid-area: footer;
 }

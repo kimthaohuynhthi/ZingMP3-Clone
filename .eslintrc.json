@@ -38,6 +38,7 @@
         "semi":"off",
         "linebreak-style":"off",
         "spaced-comment":"off",
-        "eol-last":"off"
+        "eol-last":"off",
+        "quotes":"off"
     }
 }

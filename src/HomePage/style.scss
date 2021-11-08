@@ -9,5 +9,21 @@
       background-color: #FFFFFF;
       max-width: 1000px;
       margin: 0 auto;
+      gap: 15px;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: 150px 150px 420px 500px 500px 750px 50px 650px 50px 200px 70px ;
+      grid-template-areas: 
+      "song-ranking music-for-you"
+      "song-ranking hot-topic"
+      "song-ranking weekly-song-ranking"
+      "playlist-suggestion weekly-song-ranking"
+      "hot-video album-ranking"
+      "hot-album album-ranking"
+      "hot-album music-news"
+      "new-song music-news"
+      "new-song ."
+      "hot-artist ."
+      "cooperation-partner cooperation-partner";
+      padding: 10px;
   }
 }

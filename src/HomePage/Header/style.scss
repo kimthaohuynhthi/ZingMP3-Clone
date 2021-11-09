@@ -1,6 +1,56 @@
 .header-wrapper {
   height: 50px;
-  text-align: center;
   background-color:  #1c1c1c;
-  grid-area: header;
+  &-inner{
+    display: flex;
+    margin: 0 auto;
+    width: 1020px;
+    padding-top: 8px;
+    .header-logo{
+    margin-right: 50px;
+      img {
+      max-width: 100%;
+      vertical-align: inherit;
+      }
+    }
+    .header-search{
+      margin-right: 30px;
+    }
+    .menu{
+      display: block;
+      margin-top: -1.5rem;
+      margin-left: -3rem;
+      li {
+        list-style: none;
+        float: left;
+        a {
+          display: block;
+          padding: 0px 10px 0px 10px;
+          text-decoration: none;
+          color: white;
+          line-height: 50px;
+          &:hover{
+            background-color:black;
+            color: #a845de;
+            };
+            border:0!important;
+          }
+          .active {
+            background-color: black;
+            color: #a845de;
+          }    
+      }  
+    }
+    .button-login{
+      margin-top: 5px;
+      padding-left: 170px;
+      a {
+        color: white;
+        text-decoration: none;
+        &:hover{
+          text-decoration-line: underline;  
+        }
+      }
+    }
+  }
 }

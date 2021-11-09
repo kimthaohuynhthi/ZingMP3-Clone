@@ -11,7 +11,7 @@ const Header = () => (
     <div className="header-wrapper-inner">
       <div className="header-logo">
         <a href="/" className="logo">
-          <img src={logo} alt="" />
+          <img src={logo} alt="logo-zingmp3" />
         </a>
       </div>
       <div className="header-search">

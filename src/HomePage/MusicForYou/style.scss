@@ -1,4 +1,41 @@
 .music-for-you-wrapper {
-  background-color: #2bafaf;
   grid-area: music-for-you;
+  &-inner{
+    padding: 8px 15px 10px 10px;
+    .background-image{
+      img{
+        filter: brightness(40%);
+      }
+    }
+    .music-for-you{
+      position: absolute;
+      margin-top: -115px;
+      margin-left: 20px; 
+      &:hover{
+        filter: brightness(60%);
+      }
+    }
+    .content-music-for-you{
+      position: absolute;
+      margin-top: -115px;
+      margin-left: 120px;  
+      width: 160px;
+      .title{
+        text-decoration: none;
+        color: white;
+        text-align: left;
+        b{
+          font-size: 14px;
+          margin-left: -10px;
+        }
+        p{
+          font-size: 12px;
+          line-height: 18px;
+          margin-left: 5px;
+          margin-top: 10px;
+          font-weight:100;
+        }
+      }
+    }
+  }
 }

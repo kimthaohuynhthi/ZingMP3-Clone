@@ -1,5 +1,6 @@
 //libs
 import React from "react";
+// import { SearchOutlined } from "@ant-design/icons";
 //component
 import { Input } from "antd";
 //others
@@ -15,13 +16,10 @@ const Header = () => (
         </a>
       </div>
       <div className="header-search">
-        <form className="search">
-          <Input
-            placeholder="Nhập nội dung cần tìm"
-            style={{ width: 350, height: 25 }}
-          />
-          {/* Cần chỉnh sửa thành search */}
-        </form>
+        <Input
+          placeholder="Nhập nội dung cần tìm"
+          style={{ width: 350, height: 25 }}
+        />
       </div>
       <div className="menu">
         <ul>

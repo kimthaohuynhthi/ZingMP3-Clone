@@ -20,9 +20,10 @@ const Navbar = () => (
               />
             </a>
           </li>
-          {/* nên viết thành list (map) */}
           <li>
-            <a href="/">Nhạc cá nhân</a>
+            <a href="/" className="personal-music">
+              Nhạc cá nhân
+            </a>
           </li>
           <li>
             <a href="/">#zingchart</a>

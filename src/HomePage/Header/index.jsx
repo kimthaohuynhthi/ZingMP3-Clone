@@ -11,7 +11,7 @@ const Header = () => (
   <div className="header-wrapper">
     <div className="header-wrapper-inner">
       <div className="header-logo">
-        <a href="/" className="logo">
+        <a href="/" className="logo" title="Zing MP3 - Đỉnh cao âm nhạc">
           <img src={logo} alt="logo-zingmp3" />
         </a>
       </div>
@@ -24,22 +24,28 @@ const Header = () => (
       <div className="menu">
         <ul>
           <li>
-            <a href="/" className="active">
+            <a href="/" className="active" title="Zing MP3">
               MP3
             </a>
           </li>
           <li>
-            <a href="/">NEW</a>
+            <a href="/" title="Zing News">
+              NEWS
+            </a>
           </li>
           <li>
-            <a href="/">TV</a>
+            <a href="/" title="Zing TV">
+              TV
+            </a>
           </li>
           <li>
-            <a href="/">ZALO PC</a>
+            <a href="/" title="Zalo PC">
+              ZALO PC
+            </a>
           </li>
         </ul>
       </div>
-      <div className="button-login">
+      <div className="button-login" title="Đăng nhập">
         <a href="/">Đăng nhập</a>
       </div>
     </div>

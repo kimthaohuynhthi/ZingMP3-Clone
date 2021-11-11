@@ -1,5 +1,7 @@
 //libs
 import React from "react";
+//icons
+import { PlayCircleOutlined } from "@ant-design/icons";
 //image
 import background from "../../assets/MusicForYou/background.png";
 import image from "../../assets/MusicForYou/musicforyou.jpeg";
@@ -16,6 +18,9 @@ const MusicForYou = () => (
         <a href="/">
           <img src={image} alt="music-for-you" width="90px" height="90px" />
         </a>
+        <div className="play-icon">
+          <PlayCircleOutlined />
+        </div>
       </div>
       <div className="content-music-for-you">
         <a href="/" className="title">

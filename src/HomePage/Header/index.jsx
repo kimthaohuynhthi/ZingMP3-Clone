@@ -1,9 +1,8 @@
-//libs
+// libs
 import React from "react";
-// import { SearchOutlined } from "@ant-design/icons";
-//component
-import { Input } from "antd";
-//others
+// component
+import HeaderSearch from "./mains/HeaderSearch";
+// others
 import logo from "../../assets/logo-zingmp3.png";
 import "./style.scss";
 
@@ -15,12 +14,7 @@ const Header = () => (
           <img src={logo} alt="logo-zingmp3" />
         </a>
       </div>
-      <div className="header-search">
-        <Input
-          placeholder="Nhập nội dung cần tìm"
-          style={{ width: 350, height: 25 }}
-        />
-      </div>
+      <HeaderSearch />
       <div className="menu">
         <ul>
           <li>

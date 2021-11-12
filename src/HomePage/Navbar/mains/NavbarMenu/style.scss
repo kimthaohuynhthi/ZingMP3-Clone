@@ -1,0 +1,39 @@
+.navbar-menu-wrapper {
+  ul{
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    li{
+      list-style: none;
+      float: left;
+      height: 40px;
+      a{
+        height: 40px;
+        padding: 0px 15px 0px 15px;
+        line-height: 40px;
+        font-weight: 400;
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        &:hover{
+          padding: 10px 15px 12px 15px;
+          background-color:white;
+          color: #a845de;
+        }
+      } 
+      .personal-music{
+        border-right: 1px solid #494646;
+      }
+    }
+    .home-icon{
+      font-size: 18px;
+      margin-top: 10px;
+      color: #333333;
+      &:hover{
+        padding: 8px 15px 10px 15px;
+        background-color: #e4e4e4;
+        color: black;
+      }
+    }
+  }  
+}

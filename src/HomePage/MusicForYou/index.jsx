@@ -14,7 +14,7 @@ const MusicForYou = () => (
       <div className="background-image">
         <img alt="background" src={background} height="130px" />
       </div>
-      <div className="music-for-you">
+      <div className="music-for-you" title="Playlist của bạn">
         <a href="/">
           <img src={image} alt="music-for-you" width="90px" height="90px" />
         </a>

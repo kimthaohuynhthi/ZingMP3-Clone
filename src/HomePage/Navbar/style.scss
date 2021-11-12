@@ -1,28 +1,28 @@
 .navbar-wrapper {
-  background-color: #e4e4e4;
   grid-area: navbar;
   height: 40px;
+  background-color: #e4e4e4;
   &-inner{
     display: flex;
     margin: 0 auto;
     width: 1020px;
     height: 40px;
     .functional-menu{
-      padding-left: 175px;
       margin-top: 3px;
+      padding-left: 175px;
       .turn-off-ads{
-        text-decoration: none;
         margin-right: 10px;
-        color: #333333;
         font-size: 14px;
+        color: #333333;
+        text-decoration: none;
         &:hover{
           background-color: #e4e4e4;
           color: #a845de;
         }
         .power-off-icon{
-          font-size: 14px;
           margin-top: 12px;
           margin-right: 5px;
+          font-size: 14px;
         }
       }
       .upload-icon{

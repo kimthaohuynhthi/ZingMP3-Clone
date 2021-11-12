@@ -4,21 +4,22 @@
     margin-left: 8px;
     margin-top: -20px;
     .title{
-      text-align: left;
       font-size: 18px;
       font-weight: 100;
+      text-align: left;
       color: #a845de;
     }
     img{
       margin-left: -6px;
+      width: 310px;
     }
     .other{
       margin-top: 10px;
       text-align: left;
       a{
-        text-decoration: none;
         font-size: 14px;
         color: #616161;
+        text-decoration: none;
         &:hover{
         color: #a845de;
         }

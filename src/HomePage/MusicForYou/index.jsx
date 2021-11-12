@@ -1,26 +1,24 @@
-//libs
+// libs
 import React from "react";
-//icons
+// icons
 import { PlayCircleOutlined } from "@ant-design/icons";
-//image
+// image
 import background from "../../assets/MusicForYou/background.png";
 import image from "../../assets/MusicForYou/musicforyou.jpeg";
-//others
+// others
 import "./style.scss";
 
 const MusicForYou = () => (
   <div className="music-for-you-wrapper">
     <div className="music-for-you-wrapper-inner">
       <div className="background-image">
-        <img alt="background" src={background} height="130px" />
+        <img alt="background" src={background} />
       </div>
-      <div className="music-for-you" title="Playlist của bạn">
+      <div className="banner" title="Playlist của bạn">
         <a href="/">
-          <img src={image} alt="music-for-you" width="90px" height="90px" />
+          <img src={image} alt="music-for-you" />
         </a>
-        <div className="play-icon">
-          <PlayCircleOutlined />
-        </div>
+        <PlayCircleOutlined className="play-icon" />
       </div>
       <div className="content-music-for-you">
         <a href="/" className="title">

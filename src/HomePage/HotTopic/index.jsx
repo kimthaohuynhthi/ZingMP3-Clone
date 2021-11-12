@@ -1,9 +1,9 @@
-//libs
+// libs
 import React from "react";
 import { RightOutlined } from "@ant-design/icons";
-//image
+// image
 import background from "../../assets/MusicForYou/background-hottopic.jpg";
-//others
+// others
 import "./style.scss";
 
 const HotTopic = () => (
@@ -11,7 +11,7 @@ const HotTopic = () => (
     <div className="hot-topic-wrapper-inner">
       <p className="title">CHỦ ĐỀ HOT</p>
       <a href="/" title="Hôm nay nghe gì?">
-        <img src={background} alt="topic" width="310px" />
+        <img src={background} alt="topic" />
       </a>
       <div className="other">
         <a href="/">

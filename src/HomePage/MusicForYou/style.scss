@@ -4,23 +4,28 @@
     padding: 8px;
     .background-image{
       img{
+        height: 130px;
         filter: brightness(40%);
       }
     }
-    .music-for-you{
+    .banner{
       position: absolute;
       margin-top: -115px;
       margin-left: 20px; 
       &:hover{
         filter: brightness(60%);
       }
+      img{
+        width: 90px;
+        height: 90px;
+      }
       .play-icon {
         display: block;
         position: absolute;
-        color: rgb(252, 252, 252);
-        font-size: 50px;
         margin-top: -75px;
         margin-left: 20px;
+        font-size: 50px;
+        color: #FCFCFC;
         opacity: 0.7;
       }
     }
@@ -30,19 +35,19 @@
       margin-left: 120px;  
       width: 160px;
       .title{
-        text-decoration: none;
-        color: white;
         text-align: left;
+        color: white;
+        text-decoration: none;
         b{
-          font-size: 14px;
           margin-left: -10px;
+          font-size: 14px;
         }
         p{
-          font-size: 12px;
-          line-height: 18px;
           margin-left: 5px;
           margin-top: 10px;
+          font-size: 12px;
           font-weight:100;
+          line-height: 18px;
         }
       }
     }

@@ -7,33 +7,5 @@
     margin: 0 auto;
     width: 1020px;
     height: 40px;
-    .functional-menu{
-      margin-top: 3px;
-      padding-left: 175px;
-      .turn-off-ads{
-        margin-right: 10px;
-        font-size: 14px;
-        color: #333333;
-        text-decoration: none;
-        &:hover{
-          background-color: #e4e4e4;
-          color: #a845de;
-        }
-        .power-off-icon{
-          margin-top: 12px;
-          margin-right: 5px;
-          font-size: 14px;
-        }
-      }
-      .upload-icon{
-        font-size: 20px;
-        color: #590985;
-        &:hover{
-          opacity: 0.75;
-          color: #a83fe0;
-          background-color: #e4e4e4;
-        }
-      }
-    }
   }
 }

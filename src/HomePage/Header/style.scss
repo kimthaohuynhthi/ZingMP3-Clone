@@ -4,51 +4,25 @@
   &-inner{
     display: flex;
     margin: 0 auto;
-    width: 1020px;
     padding-top: 8px;
+    width: 1020px;
     .header-logo{
     margin-right: 50px;
       img {
-      max-width: 100%;
-      vertical-align: inherit;
+        vertical-align: inherit;
+        max-width: 100%;
       }
     }
     .header-search{
       margin-right: 30px;
     }
-    .menu{
-      display: block;
-      margin-top: -1.5rem;
-      margin-left: -3rem;
-      li {
-        list-style: none;
-        float: left;
-        a {
-          display: block;
-          padding: 0px 10px 0px 10px;
-          text-decoration: none;
-          color: white;
-          font-size: 14px;
-          line-height: 50px;
-          &:hover{
-            background-color:black;
-            color: #a845de;
-            };
-            border:0!important;
-          }
-          .active {
-            background-color: black;
-            color: #a845de;
-          }    
-      }  
-    }
     .button-login{
       margin-top: 8px;
       padding-left: 180px;
       a {
+        font-size: 14px;
         color: white;
         text-decoration: none;
-        font-size: 14px;
         &:hover{
           text-decoration-line: underline;  
         }

@@ -2,6 +2,7 @@
 import React from "react";
 // component
 import HeaderSearch from "./mains/HeaderSearch";
+import HeaderMenu from "./mains/HeaderMenu";
 // others
 import logo from "../../assets/logo-zingmp3.png";
 import "./style.scss";
@@ -15,30 +16,7 @@ const Header = () => (
         </a>
       </div>
       <HeaderSearch />
-      <div className="menu">
-        <ul>
-          <li>
-            <a href="/" className="active" title="Zing MP3">
-              MP3
-            </a>
-          </li>
-          <li>
-            <a href="/" title="Zing News">
-              NEWS
-            </a>
-          </li>
-          <li>
-            <a href="/" title="Zing TV">
-              TV
-            </a>
-          </li>
-          <li>
-            <a href="/" title="Zalo PC">
-              ZALO PC
-            </a>
-          </li>
-        </ul>
-      </div>
+      <HeaderMenu />
       <div className="button-login" title="Đăng nhập">
         <a href="/">Đăng nhập</a>
       </div>

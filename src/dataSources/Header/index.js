@@ -4,8 +4,8 @@ const menuHeader = [
     title: "Zing MP3",
   },
   {
-    label: "Zing News",
-    title: "NEWS",
+    label: "NEWS",
+    title: "Zing News",
   },
   {
     label: "TV",

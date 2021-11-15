@@ -1,5 +1,20 @@
 .top-number-wrapper {
-  background-image: url('./../../../../assets/SongRanking/song_ranking.png');
-  background-size:contain;
-  height: 280px;
+  width: 30px;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    &.top-number-inner{
+      &.top-1-song-ranking{
+        color: #438de0;
+      }
+      &.top-2-song-ranking{
+          color: #116e46;
+      }
+      &.top-3-song-ranking{
+          color: #cf521c;
+      }
+      &.others-song-ranking{
+         color: #636363;
+      }
+    }
 }

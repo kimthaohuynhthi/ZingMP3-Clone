@@ -8,8 +8,21 @@ import "./style.scss";
 const RankingChart = () => (
   <div className="ranking-chart-wrapper">
     <div className="ranking-chart-wrapper-inner">
-      <SongInTop3Card />
-      <SongInTop3Card />
+      <ul>
+        <li>
+          <SongInTop3Card />
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <SongInTop3Card />
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <SongInTop3Card />
+        </li>
+      </ul>
     </div>
   </div>
 );

@@ -4,6 +4,15 @@
   height: 280px;
   &-inner{
     display: flex;
-    padding: 230px 10px 0px 10px;
+    padding: 200px 20px 0px 0px;
+    li{
+      margin-left: -20px;
+      list-style: none;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+        opacity: 0.75;
+    }
   }
+}
 }

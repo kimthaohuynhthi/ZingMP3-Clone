@@ -32,7 +32,11 @@ const SongInTop3Card = ({
         <SongInfo songName={songName} singerName={singerName} />
       </div>
       <div className="percent">
-        <TopNumber topNumber="01" numberTitle={percent} fontSize="12px" />
+        <TopNumber
+          topNumber={topNumber}
+          numberTitle={percent}
+          fontSize="12px"
+        />
       </div>
     </div>
   </div>

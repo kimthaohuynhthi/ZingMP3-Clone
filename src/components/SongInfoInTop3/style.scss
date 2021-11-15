@@ -1,26 +1,26 @@
 .song-info-wrapper {
-  text-align: left;
   margin-top: 3px;
+  text-align: left;
   &-inner{
     .song-name{
       margin-top:-5px;
       a{
-        text-decoration: none;
         white-space: nowrap;
         font-size: 12px;
         font-weight: 500;
         color: #fff;
+        text-decoration: none;
       }
     }
     .singer-name{
             margin-top: -25px;
             a {
-              text-decoration: none;
               white-space: nowrap;
-                max-width: 100%;
-                color: #a2a2a2;
-                font-size: 9px;
-                font-weight: 500;
+              max-width: 100%;
+              font-size: 9px;
+              font-weight: 500;
+              color: #a2a2a2;
+              text-decoration: none;
             }  
     }
 }

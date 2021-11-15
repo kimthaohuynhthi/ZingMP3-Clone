@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 // components
 import TopNumber from "../../../../components/TopNumber";
 import ThumbnailSong from "../../../../components/ThumbnailSong";
-import SongInfo from "../../../../components/SongInfo";
+import SongInfo from "../../../../components/SongInfoInTop3";
 // others
 import "./style.scss";
 

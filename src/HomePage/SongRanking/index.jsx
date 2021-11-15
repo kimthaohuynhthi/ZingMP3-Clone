@@ -1,9 +1,13 @@
-//libs
+// libs
 import React from "react";
-//others
+// component
+import RankingChart from "./mains/RankingChart";
+// others
 import "./style.scss";
 
 const SongRanking = () => (
-  <div className="song-ranking-wrapper">SongRanking</div>
+  <div className="song-ranking-wrapper">
+    <RankingChart />
+  </div>
 );
 export default SongRanking;

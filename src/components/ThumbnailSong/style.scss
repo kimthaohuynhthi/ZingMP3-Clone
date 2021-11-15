@@ -2,6 +2,9 @@
   &-inner{
     img{
       border: 1px solid #ffffff;
+      &:hover{
+        filter: brightness(60%);
+      }
     }
   }
 }

@@ -1,5 +1,8 @@
 .thumbnail-song-wrapper {
-  background-image: url('./../../../../assets/SongRanking/song_ranking.png');
-  background-size:contain;
-  height: 280px;
+  &-inner{
+    margin:-34px 0px 0px 24px;
+    img{
+      border: 1px solid #ffffff;
+    }
+  }
 }

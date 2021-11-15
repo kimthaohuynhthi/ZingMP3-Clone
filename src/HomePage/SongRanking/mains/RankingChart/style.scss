@@ -2,4 +2,8 @@
   background-image: url('./../../../../assets/SongRanking/song_ranking.png');
   background-size:contain;
   height: 280px;
+  &-inner{
+    display: flex;
+    padding: 230px 10px 0px 10px;
+  }
 }

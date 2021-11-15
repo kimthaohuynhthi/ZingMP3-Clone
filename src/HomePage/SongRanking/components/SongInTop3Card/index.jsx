@@ -16,7 +16,7 @@ const SongInTop3Card = () => (
         <TopNumber topNumber="01" numberTitle="01" fontSize="12px" />
       </div>
       <div className="thumbnail">
-        <ThumbnailSong image={image} width="29px" height="29px" />
+        <ThumbnailSong image={image} width="30px" height="31px" />
       </div>
       <div className="song-info">
         <SongInfo songName="Có Chút Ngọt" singerName="Kim Thảo" />

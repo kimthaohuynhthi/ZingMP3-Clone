@@ -1,42 +1,40 @@
 // images
-import test from "../assets/PlaylistSuggestion/test.jpeg";
+import item1 from "../assets/PlaylistSuggestion/item1.jpg";
+import item2 from "../assets/PlaylistSuggestion/item2.jpg";
+import item3 from "../assets/PlaylistSuggestion/item3.jpg";
+import item4 from "../assets/PlaylistSuggestion/item4.jpg";
+import item5 from "../assets/PlaylistSuggestion/item5.jpg";
 
 const listPlayList = [
   {
     id: "01",
-    songName: "Nói với em rằng",
-    singerNamer: "Bùi Anh Tuấn",
-    img: test,
+    songName: "Giai Điệu Và Trào Lưu",
+    singerNamer: "Nhiều nghệ sĩ",
+    img: item1,
   },
   {
     id: "02",
-    songName: "Nói với em rằng",
-    singerNamer: "Bùi Anh Tuấn",
-    img: test,
+    songName: "Just Hits",
+    singerNamer: "Nhiều nghệ sĩ",
+    img: item2,
   },
   {
     id: "03",
-    songName: "Nói với em rằng",
-    singerNamer: "Bùi Anh Tuấn",
-    img: test,
+    songName: "Tản Mạn Cùng Indie",
+    singerNamer: "Nhiều nghệ sĩ",
+    img: item3,
   },
   {
     id: "04",
-    songName: "Nói với em rằng",
-    singerNamer: "Bùi Anh Tuấn",
-    img: test,
+    songName: "K-Pop Iconic",
+    singerNamer: "Nhiều nghệ sĩ",
+    img: item4,
   },
   {
     id: "05",
-    songName: "Nói với em rằng",
-    singerNamer: "Bùi Anh Tuấn",
-    img: test,
-  },
-  {
-    id: "06",
-    songName: "Nói với em rằng",
-    singerNamer: "Bùi Anh Tuấn",
-    img: test,
+    songName: "Europe Music Awards 2021",
+    singerNamer: "Nhiều nghệ sĩ",
+    img: item5,
   },
 ];
 export default listPlayList;

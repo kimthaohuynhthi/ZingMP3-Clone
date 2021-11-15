@@ -1,18 +1,21 @@
-.card-wrapper {
+.song-card-wrapper {
   display: flex;
-  margin-right: 10px;
   &-inner{
+    margin-bottom: 40px;
     .top-number {
-      margin-left: 1px;
-     }
-    .thumbnail {
-      margin:-36px 0px 0px -100px;
+      margin: 0px 0px 0px -40px;
+    }
+    .icon{
+      margin: -28px 0px 0px -560px;
+    }
+    .thumbnail{
+      margin: -38px 0px 0px -420px;
     }
     .song-info{
-     margin: -40px 0px 0px 70px;
+      margin: -70px 0px 0px 130px;
     }
-    .percent{
-      margin: -36px 0px 0px 160px;
-    } 
+    .functional-icon{
+      margin: -30px 0px 0px 520px;
+    }
   }
 }

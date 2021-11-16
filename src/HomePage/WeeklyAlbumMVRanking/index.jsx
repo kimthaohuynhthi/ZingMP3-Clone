@@ -4,6 +4,6 @@ import React from "react";
 import "./style.scss";
 
 const WeeklyAlbumMVRanking = () => (
-  <div className="album-ranking-wrapper">WeeklyAlbumMVRanking</div>
+  <div className="album-ranking-wrapper"> </div>
 );
 export default WeeklyAlbumMVRanking;

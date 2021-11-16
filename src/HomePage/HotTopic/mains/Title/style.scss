@@ -1,0 +1,14 @@
+.title-wrapper {
+  &-inner{
+    .title{
+      font-size: 18px;
+      font-weight: 100;
+      text-align: left;
+      color: #a845de;
+    }
+    img{
+      margin-left: -6px;
+      width: 310px;
+    }
+  }
+}

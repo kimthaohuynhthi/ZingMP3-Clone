@@ -1,5 +1,11 @@
 .navbar-wrapper {
-  height: 45px;
-  background-color: #e4e4e4;
   grid-area: navbar;
+  height: 40px;
+  background-color: #e4e4e4;
+  &-inner{
+    display: flex;
+    margin: 0 auto;
+    width: 1020px;
+    height: 40px;
+  }
 }

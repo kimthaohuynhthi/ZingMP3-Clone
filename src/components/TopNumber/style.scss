@@ -1,25 +1,19 @@
 .top-number-wrapper {
-    width: 30px;
-    height: 40px;
-    line-height: 40px;
-    &.top-number-inner{
-      &.top-1-song-ranking{
-        color: #438de0;
-      }
-      &.top-2-song-ranking{
-          color: #116e46;
-      }
-      &.top-3-song-ranking{
-          color: #cf521c;
-      }
-      &.others-song-ranking{
-         color: #636363;
-      }
-      &.top-1-zing-chart{
-        color: white;
-      }
-      &.zing-chart{
-        color: #000000;
-     }
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  &.top-number-inner {
+    &.top-1-song-ranking {
+      color: #438de0;
     }
+    &.top-2-song-ranking {
+      color: #116e46;
+    }
+    &.top-3-song-ranking {
+      color: #cf521c;
+    }
+    &.others-song-ranking {
+      color: #636363;
+    }
+  }
 }

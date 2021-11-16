@@ -1,0 +1,24 @@
+.content-wrapper {
+  &-inner{
+      position: absolute;
+      margin-top: -115px;
+      margin-left: 120px;  
+      width: 160px;
+      .title{
+        text-align: left;
+        color: white;
+        text-decoration: none;
+        b{
+          margin-left: -10px;
+          font-size: 14px;
+        }
+        p{
+          margin-left: 5px;
+          margin-top: 10px;
+          font-size: 12px;
+          font-weight:100;
+          line-height: 18px;
+        }
+      }
+  }
+}

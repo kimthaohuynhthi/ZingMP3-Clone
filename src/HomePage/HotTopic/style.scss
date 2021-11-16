@@ -1,4 +1,7 @@
 .hot-topic-wrapper {
-  background-color: #221650;
   grid-area: hot-topic;
+  &-inner{
+    margin-left: 8px;
+    margin-top: -20px;
+  }
 }

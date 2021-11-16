@@ -1,16 +1,16 @@
 .title-wrapper {
-    width: 100%;
-    text-align: left;
-    h3 {
-        margin: 0px;
+  width: 100%;
+  text-align: left;
+  h3 {
+    margin: 0px;
+  }
+  a {
+    font-weight: lighter;
+    color: purple;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.75;
+      color: purple;
     }
-    a{
-        font-weight:lighter;
-        color: purple;
-        text-decoration: none;
-        &:hover {
-            opacity: 0.75;
-            color: purple;
-        }
-    }
+  }
 }

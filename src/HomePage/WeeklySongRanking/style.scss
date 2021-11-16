@@ -1,4 +1,11 @@
 .weekly-song-ranking-wrapper {
-  background-color: #536de2;
   grid-area: weekly-song-ranking;
+  &-inner{
+    .banner{
+      margin-top: -15px;
+    }
+    .list-song-in-top{
+      margin-top: -10px;
+    }
+  }
 }

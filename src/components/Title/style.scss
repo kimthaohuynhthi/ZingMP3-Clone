@@ -1,16 +1,26 @@
 .title-wrapper {
-  width: 100%;
   text-align: left;
   h3 {
-    margin: 0px;
+      margin: 0px;
   }
-  a {
-    font-weight: lighter;
-    color: purple;
-    text-decoration: none;
-    &:hover {
-      opacity: 0.75;
+  a{
+      font-weight:lighter;
       color: purple;
-    }
+      text-decoration: none;
+      &:hover {
+          opacity: 0.75;
+          color: purple;
+      }
+  }
+  .play-icon-title {
+      margin-left: 30px;
+      margin-top: -3px;
+      display: none;
+      &.show{
+          display: inline-block;
+          position: absolute;
+          font-size: 25px;
+          color: gray;
+      }    
   }
 }

@@ -9,7 +9,7 @@ import FunctionalIcon from "../../../../components/FunctionalIcon";
 import "./style.scss";
 
 const SongCard = ({ topNumber, numberTitle, songName, singerName }) => (
-  <div className="song-card-wrapper">
+  <div className="song-in-top-card-wrapper">
     <div className="top-number">
       <TopNumber
         topNumber={topNumber}

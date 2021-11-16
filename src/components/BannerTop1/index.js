@@ -6,8 +6,8 @@ import SongCard from "../../HomePage/WeeklySongRanking/components/SongCard";
 import "./style.scss";
 
 const BannerTop1 = ({ image, width, height }) => (
-  <div className="banner-wrapper">
-    <a href="/" className="banner-wrapper-inner">
+  <div className="banner-top-1-wrapper">
+    <a href="/" className="banner-top-1-wrapper-inner">
       <img src={image} style={{ width, height }} alt="banner" />
       <div className="top-1">
         <SongCard

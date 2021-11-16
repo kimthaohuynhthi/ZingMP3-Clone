@@ -39,6 +39,7 @@
         "linebreak-style":"off",
         "spaced-comment":"off",
         "eol-last":"off",
-        "quotes":"off"
+        "quotes":"off",
+        "react/require-default-props": "off"
     }
 }

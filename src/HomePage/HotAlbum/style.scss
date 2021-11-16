@@ -1,4 +1,10 @@
 .hot-album-wrapper {
-  background-color: #ecb94b;
   grid-area: hot-album;
+  .title{
+    margin-left: 10px;
+    text-align: left;
+    font-size: 26px;
+    font-weight:lighter;
+    color: purple;
+  }
 }

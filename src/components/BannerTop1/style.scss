@@ -1,0 +1,9 @@
+.banner-wrapper{
+    &-inner{
+        position: relative;
+        display: block;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

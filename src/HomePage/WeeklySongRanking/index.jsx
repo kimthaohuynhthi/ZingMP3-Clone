@@ -22,7 +22,9 @@ const WeeklySongRanking = () => (
       <div className="banner">
         <BannerTop1 image={banner} width="100%" height="120px" />
       </div>
-      <ListSong />
+      <div className="list-song-in-top">
+        <ListSong />
+      </div>
     </div>
   </div>
 );

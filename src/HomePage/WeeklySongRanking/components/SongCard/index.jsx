@@ -10,20 +10,18 @@ import "./style.scss";
 
 const SongCard = ({ topNumber, numberTitle, songName, singerName }) => (
   <div className="song-card-wrapper">
-    <div className="song-card-wrapper-inner">
-      <div className="top-number">
-        <TopNumber
-          topNumber={topNumber}
-          numberTitle={numberTitle}
-          fontSize="20px"
-        />
-      </div>
-      <div className="song-info">
-        <SongInformation songName={songName} singerName={singerName} />
-      </div>
-      <div className="functional-icon">
-        <FunctionalIcon />
-      </div>
+    <div className="top-number">
+      <TopNumber
+        topNumber={topNumber}
+        numberTitle={numberTitle}
+        fontSize="20px"
+      />
+    </div>
+    <div className="song-info">
+      <SongInformation songName={songName} singerName={singerName} />
+    </div>
+    <div className="functional-icon">
+      <FunctionalIcon />
     </div>
   </div>
 );

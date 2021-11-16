@@ -1,0 +1,8 @@
+.background-image-wrapper {
+  &-inner{
+      img{
+        height: 130px;
+        filter: brightness(40%);
+      }
+  }
+}

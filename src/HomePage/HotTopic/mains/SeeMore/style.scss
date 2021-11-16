@@ -1,0 +1,17 @@
+.see-more-wrapper {
+  &-inner{
+      margin-top: 10px;
+      text-align: left;
+      a{
+        font-size: 14px;
+        color: #616161;
+        text-decoration: none;
+        &:hover{
+        color: #a845de;
+        }
+        .icon{
+          margin-left: 5px;
+        }
+    }
+  }
+}

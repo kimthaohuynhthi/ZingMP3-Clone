@@ -1,13 +1,22 @@
 // libs
 import PropTypes from "prop-types";
-import classNames from "classnames";
+// components
+import SongCard from "../../HomePage/WeeklySongRanking/components/SongCard";
 // others
 import "./style.scss";
 
 const BannerTop1 = ({ image, width, height }) => (
-  <div className={classNames("banner-wrapper", { rankingWrapper: !image })}>
+  <div className="banner-wrapper">
     <a href="/" className="banner-wrapper-inner">
       <img src={image} style={{ width, height }} alt="banner" />
+      <div className="top-1">
+        <SongCard
+          topNumber="top-1-zing-chart"
+          numberTitle="01"
+          songName="Thay Lòng"
+          singerName="DIMZ, TVk, NH4T"
+        />
+      </div>
     </a>
   </div>
 );

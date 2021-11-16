@@ -1,33 +1,32 @@
 .song-information-wrapper {
   margin-top: 3px;
   text-align: left;
-  &-inner{
-    .song-name{
-      margin-top:-5px;
-      a{
-        white-space: nowrap;
+  &-inner {
+    .song-name {
+      margin-top: -5px;
+      a {
         font-size: 14px;
         font-weight: 500;
         color: #000000;
+        overflow-wrap: break-word;
         text-decoration: none;
-        &:hover{
+        &:hover {
           color: purple;
-      }
+        }
       }
     }
-    .singer-name{
-            margin-top: -20px;
-            a {
-              max-width: 100%;
-              white-space: nowrap;
-              color: #575555;
-              font-size: 12px;
-              font-weight: 500;
-              text-decoration: none;
-              &:hover{
-                color: purple;
-              }
-            }  
+    .singer-name {
+      margin-top: -20px;
+      a {
+        font-size: 12px;
+        font-weight: 500;
+        color: #575555;
+        overflow-wrap: break-word;
+        text-decoration: none;
+        &:hover {
+          color: purple;
+        }
+      }
     }
-}
+  }
 }

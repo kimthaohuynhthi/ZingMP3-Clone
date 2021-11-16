@@ -1,78 +1,89 @@
 // images
-import test from "../assets/HotVideo/test.jpeg";
+import video1 from "../assets/HotVideo/video1.jpg";
+import video2 from "../assets/HotVideo/video2.jpg";
+import video3 from "../assets/HotVideo/video3.jpg";
+import video4 from "../assets/HotVideo/video4.jpg";
+import video5 from "../assets/HotVideo/video5.jpg";
+import video6 from "../assets/HotVideo/video6.jpg";
+import video7 from "../assets/HotVideo/video7.jpg";
+import video8 from "../assets/HotVideo/video8.jpg";
+import video9 from "../assets/HotVideo/video9.jpg";
+import video10 from "../assets/HotVideo/video10.jpg";
+import video11 from "../assets/HotVideo/video11.jpg";
+import video12 from "../assets/HotVideo/video12.jpg";
 
 const listVideo = [
   {
     id: "01",
-    videoName: "Em Hứa Thế Nào",
-    singerName: "Như Việt",
-    img: test,
+    videoName: "Túp Lều Vàng",
+    singerName: "Nguyễn Đình Vũ, ACV",
+    img: video1,
   },
   {
     id: "02",
-    videoName: "Tình Nồng",
-    singerName: "Vicky Nhung",
-    img: test,
+    videoName: "Lựa Chọn Của Anh",
+    singerName: "Thương Võ, ACV",
+    img: video2,
   },
   {
     id: "03",
-    videoName: "Summer Of Love",
-    singerName: "Shawn Mendes",
-    img: test,
+    videoName: "Những Lời Dối Gian",
+    singerName: "Vicky Nhung",
+    img: video3,
   },
   {
     id: "04",
-    videoName: "Tình Đơn Phương",
-    singerName: "Nguyên",
-    img: test,
+    videoName: "Sai Cách Yêu",
+    singerName: "Lê Bảo Bình",
+    img: video4,
   },
   {
     id: "05",
-    videoName: "Một Thuở Yêu Người",
+    videoName: "Khi Cô Đơn Em Nhớ Ai",
     singerName: "Vicky Nhung",
-    img: test,
+    img: video5,
   },
   {
     id: "06",
-    videoName: "Sài Gòn Ơi!",
-    singerName: "Châu Khải Phong",
-    img: test,
+    videoName: "Sẽ Không Ai Bị Bỏ Lại Phía Sau",
+    singerName: "Sofia, Châu Đăng Khoa",
+    img: video6,
   },
   {
     id: "07",
-    videoName: "Cold Heart (PNAU Remix)",
-    singerName: "Elton John",
-    img: test,
+    videoName: "The Playah (Special Performance)",
+    singerName: "SOOBIN, SlimV",
+    img: video7,
   },
   {
     id: "08",
-    videoName: "A Concert Six Months From Nowe",
-    singerName: "FINNEAS",
-    img: test,
+    videoName: "Chỉ Muốn Bên Em Lúc Này",
+    singerName: "GiGi Hương Giang",
+    img: video8,
   },
   {
     id: "09",
-    videoName: "Em Không Hư Anh Không Yêu",
-    singerName: "FOR7",
-    img: test,
+    videoName: "Chiếc Đèn Ông Sao",
+    singerName: "Bé Thanh Ngân",
+    img: video9,
   },
   {
     id: "10",
-    videoName: "Take My Breath",
-    singerName: "The Weeknd",
-    img: test,
+    videoName: "Đô Trưởng (New Version)",
+    singerName: "Đạt G",
+    img: video10,
   },
   {
     id: "11",
-    videoName: "Chàng Nghệ Sĩ",
-    singerName: "Powerk",
-    img: test,
+    videoName: "Có Ai Cho Tôi Hay",
+    singerName: "Trịnh Thăng Bình, XAN",
+    img: video11,
   },
   {
     id: "12",
-    videoName: "Tình Yêu Hóa Đá",
-    singerName: "K-ICM",
-    img: test,
+    videoName: "Ngựa Ô Duyên Tình",
+    singerName: "Phạm Sắc Lệnh, Jiren K",
+    img: video12,
   },
 ];
 export default listVideo;

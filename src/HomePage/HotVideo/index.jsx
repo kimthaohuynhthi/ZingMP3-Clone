@@ -8,10 +8,10 @@ import "./style.scss";
 
 const HotVideo = () => (
   <div className="hot-video-wrapper">
-    <Title titleName="VIDEO HOT" fontSize="26px" />
-    <div>
-      <ListVideo />
+    <div className="title">
+      <Title titleName="VIDEO HOT" fontSize="26px" />
     </div>
+    <ListVideo />
   </div>
 );
 export default HotVideo;

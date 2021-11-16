@@ -10,7 +10,9 @@ import "./style.scss";
 const VideoCard = ({ image, songName, singerName }) => (
   <div className="video-card-wrapper">
     <ThumbnailSong image={image} width="140px" height="auto" />
-    <SongInformation songName={songName} singerName={singerName} />
+    <div className="info">
+      <SongInformation songName={songName} singerName={singerName} />
+    </div>
   </div>
 );
 VideoCard.propTypes = {

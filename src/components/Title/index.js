@@ -7,7 +7,7 @@ import "./style.scss";
 const Title = ({ titleName, fontSize }) => (
   <div className="title-wrapper">
     <h3 style={{ fontSize }}>
-      <a href="/" className="title-link">
+      <a href="/">
         {titleName}
         <RightOutlined />
       </a>

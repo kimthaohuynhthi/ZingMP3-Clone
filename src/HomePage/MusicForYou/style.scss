@@ -1,4 +1,6 @@
 .music-for-you-wrapper {
-  background-color: #2bafaf;
   grid-area: music-for-you;
+  &-inner{
+    padding: 8px;
+  }
 }

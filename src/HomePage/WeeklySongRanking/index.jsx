@@ -4,11 +4,11 @@ import React from "react";
 import Title from "../../components/Title";
 import MenuZingChart from "../../components/MenuZingChart";
 import BannerTop1 from "../../components/BannerTop1";
+import ListSong from "./mains/ListSong";
 // image
 import banner from "../../assets/WeeklySongRanking/banner.jpeg";
 // others
 import "./style.scss";
-import ListSong from "./mains/ListSong";
 
 const WeeklySongRanking = () => (
   <div className="weekly-song-ranking-wrapper">

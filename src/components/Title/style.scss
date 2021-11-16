@@ -1,0 +1,25 @@
+.title-wrapper {
+    text-align: left;
+    h3 {
+        margin: 0px;
+    }
+    a{
+        font-weight:lighter;
+        color: purple;
+        text-decoration: none;
+        &:hover {
+            opacity: 0.75;
+            color: purple;
+        }
+    }
+    .play-icon {
+        margin-left: 30px;
+        display: none;
+        &.show{
+            
+            display: inline-block;
+            font-size: 25px;
+            color: gray;
+        }    
+    }
+}

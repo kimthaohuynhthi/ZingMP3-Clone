@@ -8,7 +8,7 @@ import item5 from "../assets/PlaylistSuggestion/item5.jpg";
 const listPlayList = [
   {
     id: "01",
-    songName: "Giai Điệu Và Trào Lưu",
+    songName: "Giai Điệu Và Trào Lưu Mới",
     singerNamer: "Nhiều nghệ sĩ",
     img: item1,
   },

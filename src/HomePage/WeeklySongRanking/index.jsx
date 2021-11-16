@@ -8,6 +8,7 @@ import BannerTop1 from "../../components/BannerTop1";
 import banner from "../../assets/WeeklySongRanking/banner.jpeg";
 // others
 import "./style.scss";
+import ListSong from "./mains/ListSong";
 
 const WeeklySongRanking = () => (
   <div className="weekly-song-ranking-wrapper">
@@ -21,6 +22,7 @@ const WeeklySongRanking = () => (
       <div className="banner">
         <BannerTop1 image={banner} width="100%" height="120px" />
       </div>
+      <ListSong />
     </div>
   </div>
 );

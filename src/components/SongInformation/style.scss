@@ -5,10 +5,10 @@
     .song-name{
       margin-top:-5px;
       a{
-        overflow-wrap: break-word;
         font-size: 14px;
         font-weight: 500;
         color: #000000;
+        overflow-wrap: break-word;
         text-decoration: none;
         &:hover{
           color: purple;
@@ -18,11 +18,10 @@
     .singer-name{
             margin-top: -20px;
             a {
-              overflow-wrap: break-word;
-              max-width: 100%;
-              color: #575555;
               font-size: 12px;
               font-weight: 500;
+              color: #575555;
+              overflow-wrap: break-word;
               text-decoration: none;
               &:hover{
                 color: purple;

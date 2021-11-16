@@ -32,7 +32,7 @@ const listPlayList = [
   },
   {
     id: "05",
-    songName: "Europe Music Awards 2021",
+    songName: "Music Awards 2021",
     singerNamer: "Nhiều nghệ sĩ",
     img: item5,
   },

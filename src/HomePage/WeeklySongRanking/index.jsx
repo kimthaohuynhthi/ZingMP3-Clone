@@ -2,6 +2,7 @@
 import React from "react";
 // components
 import Title from "../../components/Title";
+import MenuZingChart from "../../components/MenuZingChart";
 // others
 import "./style.scss";
 
@@ -12,6 +13,7 @@ const WeeklySongRanking = () => (
       fontSize="18px"
       isShow="true"
     />
+    <MenuZingChart />
   </div>
 );
 export default WeeklySongRanking;

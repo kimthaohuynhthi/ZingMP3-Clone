@@ -1,0 +1,23 @@
+.banner-wrapper {
+  &-inner{
+      position: absolute;
+      margin-top: -115px;
+      margin-left: 20px; 
+      &:hover{
+        filter: brightness(60%);
+      }
+      img{
+        width: 90px;
+        height: 90px;
+      }
+      .play-icon {
+        display: block;
+        position: absolute;
+        margin-top: -75px;
+        margin-left: 20px;
+        font-size: 50px;
+        color: #FCFCFC;
+        opacity: 0.7;
+    }
+  }
+}

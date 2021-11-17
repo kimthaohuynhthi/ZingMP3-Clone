@@ -12,7 +12,7 @@ const Title = ({ titleName, fontSize, isShow }) => (
         {titleName}
         <RightOutlined />
       </a>
-      <a href="/" className={classNames("play-icon", { show: isShow })}>
+      <a href="/" className={classNames("play-icon-title", { show: isShow })}>
         <PlayCircleTwoTone twoToneColor="darkgray" />
       </a>
     </h3>

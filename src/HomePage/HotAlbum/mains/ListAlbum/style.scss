@@ -1,0 +1,12 @@
+.list-album-wrapper {
+  margin-left: -40px;
+  margin-top: -10px;
+  &-inner{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      list-style: none;
+      margin: 10px;
+    }
+  }
+}

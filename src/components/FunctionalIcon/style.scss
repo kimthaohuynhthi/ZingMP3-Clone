@@ -1,0 +1,13 @@
+.functional-icon-wrapper {
+  display: flex;
+    a {
+        padding: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        color: gray;
+        &:hover{
+            color: purple;
+            opacity: 0.75;
+        }
+    }
+}

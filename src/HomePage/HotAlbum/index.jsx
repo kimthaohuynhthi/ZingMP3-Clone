@@ -8,9 +8,7 @@ import "./style.scss";
 
 const HotAlbum = () => (
   <div className="hot-album-wrapper">
-    <div className="title">
-      <Title titleName="ALBUM HOT" fontSize="26px" />
-    </div>
+    <Title className="title" titleName="ALBUM HOT" fontSize="26px" />
     <ListAlbum />
   </div>
 );

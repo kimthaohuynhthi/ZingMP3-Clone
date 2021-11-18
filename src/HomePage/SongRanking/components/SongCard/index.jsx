@@ -19,9 +19,7 @@ const SongCard = ({ topNumber, numberTitle, image, songName, singerName }) => (
         fontSize="20px"
         className="top-number"
       />
-      <div className="minus-icon">
-        <MinusOutlined />
-      </div>
+      <MinusOutlined className="minus-icon" />
       <ThumbnailSong
         className="thumbnail"
         image={image}

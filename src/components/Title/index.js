@@ -5,8 +5,8 @@ import { RightOutlined, PlayCircleTwoTone } from "@ant-design/icons";
 // others
 import "./style.scss";
 
-const Title = ({ titleName, fontSize, isShow }) => (
-  <div className="title-wrapper">
+const Title = ({ titleName, fontSize, isShow, className }) => (
+  <div className={classNames("title-wrapper", className)}>
     <h3 style={{ fontSize }}>
       <a href="#">
         {titleName}
@@ -22,5 +22,6 @@ Title.propTypes = {
   titleName: PropTypes.string,
   fontSize: PropTypes.string,
   isShow: PropTypes.string,
+  className: PropTypes.string,
 };
 export default Title;

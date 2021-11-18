@@ -9,10 +9,10 @@ const SongInfoTop3 = ({ songName, singerName, className }) => (
   <div className={classNames("song-info-wrapper", className)}>
     <div className="song-info-wrapper-inner">
       <h3 className="song-name">
-        <a href="/">{songName}</a>
+        <a href="#">{songName}</a>
       </h3>
       <div className="singer-name">
-        <a href="/">{singerName}</a>
+        <a href="#">{singerName}</a>
       </div>
     </div>
   </div>

@@ -6,7 +6,7 @@ import "./style.scss";
 const MenuItems = ({ title, label }) => (
   <div className="menu-item-wrapper">
     <div className="menu-item-wrapper-inner">
-      <a href="/" title={title}>
+      <a href="#" title={title}>
         {label}
       </a>
     </div>

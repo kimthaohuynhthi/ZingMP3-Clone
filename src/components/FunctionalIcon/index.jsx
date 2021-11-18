@@ -11,13 +11,13 @@ import "./style.scss";
 
 const FunctionalIcon = ({ className }) => (
   <div className={classNames("functional-icon-wrapper", className)}>
-    <a href="/">
+    <a href="#">
       <VerticalAlignBottomOutlined />
     </a>
-    <a href="/">
+    <a href="#">
       <PlusOutlined />
     </a>
-    <a href="/">
+    <a href="#">
       <ShareAltOutlined />
     </a>
   </div>

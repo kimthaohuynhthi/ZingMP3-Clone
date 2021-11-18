@@ -9,7 +9,7 @@ const Title = () => (
   <div className="title-wrapper">
     <div className="title-wrapper-inner">
       <p className="title">CHỦ ĐỀ HOT</p>
-      <a href="/" title="Hôm nay nghe gì?">
+      <a href="#" title="Hôm nay nghe gì?">
         <img src={background} alt="topic" />
       </a>
     </div>

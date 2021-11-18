@@ -8,11 +8,11 @@ import "./style.scss";
 const Title = ({ titleName, fontSize, isShow }) => (
   <div className="title-wrapper">
     <h3 style={{ fontSize }}>
-      <a href="/">
+      <a href="#">
         {titleName}
         <RightOutlined />
       </a>
-      <a href="/" className={classNames("play-icon-title", { show: isShow })}>
+      <a href="#" className={classNames("play-icon-title", { show: isShow })}>
         <PlayCircleTwoTone twoToneColor="darkgray" />
       </a>
     </h3>

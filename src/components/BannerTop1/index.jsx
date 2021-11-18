@@ -12,10 +12,11 @@ const BannerTop1 = ({ image, width, height, className }) => (
       <img src={image} style={{ width, height }} alt="banner" />
       <div className="top-1">
         <SongCard
-          topNumber="top-1-zing-chart"
+          topNumber="00"
           numberTitle="01"
           songName="Thay Lòng"
           singerName="DIMZ, TVk, NH4T"
+          color="white"
         />
       </div>
     </a>

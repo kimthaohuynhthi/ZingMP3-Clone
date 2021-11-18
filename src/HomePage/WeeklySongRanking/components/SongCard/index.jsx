@@ -8,7 +8,7 @@ import FunctionalIcon from "../../../../components/FunctionalIcon";
 // others
 import "./style.scss";
 
-const SongCard = ({ topNumber, numberTitle, songName, singerName }) => (
+const SongCard = ({ topNumber, numberTitle, songName, singerName, color }) => (
   <div className="song-in-top-card-wrapper">
     <TopNumber
       className="top-number-song-card"
@@ -20,6 +20,7 @@ const SongCard = ({ topNumber, numberTitle, songName, singerName }) => (
       className="song-info"
       songName={songName}
       singerName={singerName}
+      color={color}
     />
     <div className="functional-icon">
       <FunctionalIcon />
@@ -32,5 +33,6 @@ SongCard.propTypes = {
   numberTitle: PropTypes.string,
   songName: PropTypes.string,
   singerName: PropTypes.string,
+  color: PropTypes.string,
 };
 export default SongCard;

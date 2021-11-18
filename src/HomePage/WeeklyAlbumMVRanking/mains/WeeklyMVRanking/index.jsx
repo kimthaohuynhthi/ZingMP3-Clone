@@ -3,7 +3,7 @@ import React from "react";
 // components
 import Title from "../../../../components/Title";
 import MenuZingChart from "../../../../components/MenuZingChart";
-import BannerTop1 from "../../../../components/BannerTop1";
+import Banner from "../../components/Banner";
 import ListMV from "./ListMV";
 // image
 import banner from "../../../../assets/WeeklyMVRanking/banner.jpeg";
@@ -15,12 +15,13 @@ const WeeklyMVRanking = () => (
     <div className="weekly-mv-ranking-wrapper-inner">
       <Title titleName="#ZINGCHART TUẦN - MV" fontSize="18px" isShow="true" />
       <MenuZingChart />
-      <BannerTop1
+      <Banner
         className="banner"
         image={banner}
-        width="100%"
+        width="328px"
         height="120px"
-        color="white"
+        singerName="Nguyễn Thạc Bảo Ngọc"
+        songName="Em Quá Khờ Dại"
       />
       <ListMV />
     </div>

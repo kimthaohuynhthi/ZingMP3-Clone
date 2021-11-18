@@ -1,0 +1,18 @@
+.banner-zing-chart-wrapper{
+    &-inner{
+        position: relative;
+        display: block;
+        &:hover {
+            opacity: 0.8;
+        }
+        .top-number-banner{
+          position:absolute;
+          margin: -50px 0px 0px 10px;
+        }
+        .song-info-banner{
+          position:absolute;
+          margin: -50px 0px 0px 50px;
+        }
+    }
+
+}

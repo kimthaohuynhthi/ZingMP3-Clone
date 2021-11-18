@@ -3,20 +3,17 @@
   height: 40px;
   line-height: 40px;
   &.top-number-wrapper-inner {
-    &.top-1-song-ranking {
+    &.top-01-song-ranking {
       color: #438de0;
     }
-    &.top-2-song-ranking {
+    &.top-02-song-ranking {
       color: #116e46;
     }
-    &.top-3-song-ranking {
+    &.top-03-song-ranking {
       color: #cf521c;
     }
-    &.others-song-ranking {
+    &.top-others-song-ranking {
       color: #636363;
-    }
-    &.top-1-zing-chart{
-      color: white;
     }
   }
 }

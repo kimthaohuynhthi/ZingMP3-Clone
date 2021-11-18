@@ -9,11 +9,7 @@ const TopNumber = ({ topNumber, numberTitle, fontSize, className }) => (
     className={classNames(
       "top-number-wrapper",
       "top-number-wrapper-inner",
-      { "top-1-song-ranking": topNumber === "01" },
-      { "top-2-song-ranking": topNumber === "02" },
-      { "top-3-song-ranking": topNumber === "03" },
-      { "others-song-ranking": topNumber === "others" },
-      { "top-1-zing-chart": topNumber === "top-1-zing-chart" },
+      { [`top-${topNumber}-song-ranking`]: true },
       className
     )}
     style={{ fontSize }}

@@ -11,9 +11,11 @@ const VideoCard = ({ image, songName, singerName }) => (
   <div className="video-card-wrapper">
     <div className="video-card-wrapper-inner">
       <ThumbnailSong image={image} width="140px" height="auto" />
-      <div className="video-information">
-        <SongInformation songName={songName} singerName={singerName} />
-      </div>
+      <SongInformation
+        className="video-information"
+        songName={songName}
+        singerName={singerName}
+      />
     </div>
   </div>
 );

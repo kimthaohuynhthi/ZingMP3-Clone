@@ -1,11 +1,12 @@
 // libs
 import React from "react";
 import PropTypes from "prop-types";
+import classNames from "classnames";
 // others
 import "./style.scss";
 
-const SongInfo = ({ songName, singerName }) => (
-  <div className="song-info-wrapper">
+const SongInfoTop3 = ({ songName, singerName, className }) => (
+  <div className={classNames("song-info-wrapper", className)}>
     <div className="song-info-wrapper-inner">
       <h3 className="song-name">
         <a href="/">{songName}</a>
@@ -16,8 +17,9 @@ const SongInfo = ({ songName, singerName }) => (
     </div>
   </div>
 );
-SongInfo.propTypes = {
+SongInfoTop3.propTypes = {
   songName: PropTypes.string,
   singerName: PropTypes.string,
+  className: PropTypes.string,
 };
-export default SongInfo;
+export default SongInfoTop3;

@@ -10,12 +10,13 @@
   }
   .functional-icon {
     display: none;
-    margin: 10px 0px 0px 200px;
+    margin: 5px 0px 0px 200px;
   }
   &:hover {
     .functional-icon{
-      display: block;
-      position: absolute;
-    }
+        display: block;
+        position: absolute;
+      }
   }
+  
 }

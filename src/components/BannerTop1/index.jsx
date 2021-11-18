@@ -8,7 +8,7 @@ import "./style.scss";
 
 const BannerTop1 = ({ image, width, height, className }) => (
   <div className={classNames("banner-top-1-wrapper", className)}>
-    <a href="/" className="banner-top-1-wrapper-inner">
+    <a href="#" className="banner-top-1-wrapper-inner">
       <img src={image} style={{ width, height }} alt="banner" />
       <div className="top-1">
         <SongCard

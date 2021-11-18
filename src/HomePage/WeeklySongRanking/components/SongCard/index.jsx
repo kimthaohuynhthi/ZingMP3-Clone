@@ -21,7 +21,9 @@ const SongCard = ({ topNumber, numberTitle, songName, singerName }) => (
       songName={songName}
       singerName={singerName}
     />
-    <FunctionalIcon className="functional-icon" />
+    <div className="functional-icon">
+      <FunctionalIcon />
+    </div>
   </div>
 );
 

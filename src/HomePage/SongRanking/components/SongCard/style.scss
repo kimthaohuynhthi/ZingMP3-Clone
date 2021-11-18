@@ -1,11 +1,11 @@
 .song-card-wrapper {
   display: flex;
   &-inner{
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     .top-number {
       margin: 0px 0px 0px -40px;
     }
-    .icon{
+    .minus-icon{
       margin: -28px 0px 0px -560px;
     }
     .thumbnail{
@@ -14,8 +14,8 @@
     .song-info{
       margin: -70px 0px 0px 130px;
     }
-    .functional-icon{
-      margin: -30px 0px 0px 520px;
+    .functional-icon-song-ranking{
+      margin: -20px 0px 0px 520px;
     }
   }
 }

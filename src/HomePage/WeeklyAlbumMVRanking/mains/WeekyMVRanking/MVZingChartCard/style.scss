@@ -1,0 +1,22 @@
+.song-in-top-card-wrapper {
+  display: flex;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    .top-number {
+      margin: 0px 0px 0px -40px;
+    }
+    .mv-info{
+      margin: 0px 0px 0px 10px;
+    }
+    .functional-icon {
+      display: none;
+      margin: 5px 0px 0px 200px;
+     }
+      &:hover {
+      .functional-icon{
+          display: block;
+          position: absolute;
+      }
+  }
+  
+}

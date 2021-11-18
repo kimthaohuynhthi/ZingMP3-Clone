@@ -9,8 +9,8 @@ import "./style.scss";
 const TopSong = () => (
   <div className="top-song-wrapper">
     {songInTop.map((song) => (
-      <ul className="top-song-wrapper-inner">
-        <li key={song.id}>
+      <ul className="top-song-wrapper-inner" key={song.id}>
+        <li>
           <SongCard
             topNumber={song.rank}
             numberTitle={song.number}

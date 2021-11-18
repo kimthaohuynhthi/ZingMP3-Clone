@@ -10,8 +10,8 @@ import "./style.scss";
 const ListSong = () => (
   <div className="list-song-wrapper">
     {songInTopZingChart.map((song) => (
-      <ul className="list-song-wrapper-inner">
-        <li key={song.id}>
+      <ul className="list-song-wrapper-inner" key={song.id}>
+        <li>
           <SongCard
             topNumber="zing-chart"
             numberTitle={song.number}

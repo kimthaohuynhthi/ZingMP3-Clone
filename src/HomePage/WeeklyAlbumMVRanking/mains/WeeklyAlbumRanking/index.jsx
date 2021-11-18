@@ -3,6 +3,10 @@ import React from "react";
 // components
 import Title from "../../../../components/Title";
 import MenuZingChart from "../../../../components/MenuZingChart";
+import BannerTop1 from "../../../../components/BannerTop1";
+import ListAlbum from "./ListAlbum";
+// image
+import banner from "../../../../assets/WeeklyMVRanking/banner.jpeg";
 // others
 import "./style.scss";
 
@@ -15,6 +19,13 @@ const WeeklyAlbumRanking = () => (
         isShow="true"
       />
       <MenuZingChart />
+      <BannerTop1
+        className="banner"
+        image={banner}
+        width="100%"
+        height="120px"
+      />
+      <ListAlbum />
     </div>
   </div>
 );

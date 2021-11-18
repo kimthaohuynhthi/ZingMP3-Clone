@@ -9,9 +9,11 @@ import "./style.scss";
 
 const VideoCard = ({ image, songName, singerName }) => (
   <div className="video-card-wrapper">
-    <ThumbnailSong image={image} width="140px" height="auto" />
-    <div className="info">
-      <SongInformation songName={songName} singerName={singerName} />
+    <div className="video-card-wrapper-inner">
+      <ThumbnailSong image={image} width="140px" height="auto" />
+      <div className="video-information">
+        <SongInformation songName={songName} singerName={singerName} />
+      </div>
     </div>
   </div>
 );

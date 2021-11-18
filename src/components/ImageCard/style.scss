@@ -1,0 +1,24 @@
+.image-card-wrapper{
+    &-inner{
+        position: relative;
+        display: block;
+        .artist-name {
+            display:none;
+        }
+        &:hover{
+            opacity: 0.85;
+            .artist-name {
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 400;
+                color: white;
+            }   
+        }
+    }
+}

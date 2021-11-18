@@ -10,13 +10,13 @@ const NavbarMenu = () => (
   <div className="navbar-menu-wrapper">
     <ul>
       <li>
-        <a href="/" className="home-icon" title="Zing MP3">
+        <a href="#" className="home-icon" title="Zing MP3">
           <HomeFilled />
         </a>
       </li>
       {menuNavbar.map((menuItem) => (
-        <li>
-          <a href="/" title={menuItem.title}>
+        <li key={menuItem.id}>
+          <a href="#" title={menuItem.title}>
             {menuItem.label}
           </a>
         </li>

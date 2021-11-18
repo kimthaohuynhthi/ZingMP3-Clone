@@ -11,14 +11,14 @@ const Header = () => (
   <div className="header-wrapper">
     <div className="header-wrapper-inner">
       <div className="header-logo">
-        <a href="/" className="logo" title="Zing MP3 - Đỉnh cao âm nhạc">
+        <a href="#" className="logo" title="Zing MP3 - Đỉnh cao âm nhạc">
           <img src={logo} alt="logo-zingmp3" />
         </a>
       </div>
       <HeaderSearch />
       <HeaderMenu />
       <div className="button-login" title="Đăng nhập">
-        <a href="/">Đăng nhập</a>
+        <a href="#">Đăng nhập</a>
       </div>
     </div>
   </div>

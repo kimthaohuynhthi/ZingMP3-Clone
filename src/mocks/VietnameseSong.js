@@ -10,7 +10,7 @@ import song8 from "../assets/NewVietnamsesSong/song8.jpg";
 import song9 from "../assets/NewVietnamsesSong/song9.jpg";
 import song10 from "../assets/NewVietnamsesSong/song10.jpg";
 
-const datasong = [
+const listVietnameseSong = [
   {
     id: "1",
     name: "Kiêu Ngạo",
@@ -72,4 +72,4 @@ const datasong = [
     img: song10,
   },
 ];
-export default datasong;
+export default listVietnameseSong;

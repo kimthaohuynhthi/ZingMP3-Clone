@@ -1,4 +1,6 @@
 // libs
+import PropTypes from "prop-types";
+import classNames from "classnames";
 import {
   VerticalAlignBottomOutlined,
   PlusOutlined,
@@ -7,18 +9,20 @@ import {
 // others
 import "./style.scss";
 
-const FunctionalIcon = () => (
-  <div className="functional-icon-wrapper">
-    <a href="/">
+const FunctionalIcon = ({ className }) => (
+  <div className={classNames("functional-icon-wrapper", className)}>
+    <a href="#">
       <VerticalAlignBottomOutlined />
     </a>
-    <a href="/">
+    <a href="#">
       <PlusOutlined />
     </a>
-    <a href="/">
+    <a href="#">
       <ShareAltOutlined />
     </a>
   </div>
 );
-
+FunctionalIcon.propTypes = {
+  className: PropTypes.string,
+};
 export default FunctionalIcon;

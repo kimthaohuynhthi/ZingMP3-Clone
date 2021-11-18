@@ -1,10 +1,18 @@
 .thumbnail-song-wrapper {
   &-inner{
+    text-decoration: none;
     img{
       border: 1px solid #ffffff;
       &:hover{
         filter: brightness(60%);
       }
+    }
+    .top-number-mv{
+      position: absolute;
+      font-size: 20px;
+      margin: -40px 0px 0px 10px;
+      line-height: 40px;
+      color: white;
     }
   }
 }

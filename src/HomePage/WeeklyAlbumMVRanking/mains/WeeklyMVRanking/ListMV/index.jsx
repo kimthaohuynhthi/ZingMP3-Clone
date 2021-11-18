@@ -5,20 +5,20 @@ import PropTypes from "prop-types";
 // components
 import MVZingChartCard from "../MVZingChartCard";
 // mocks
-import songInTopZingChart from "../../../../../mocks/SongInTopZingChart";
+import listMV from "../../../../../mocks/ListMV";
 // others
 import "./style.scss";
 
 const ListMV = ({ className }) => (
   <div className={classNames("list-mv-wrapper", className)}>
-    {songInTopZingChart.map((song) => (
-      <ul className="list-mv-wrapper-inner" key={song.id}>
+    {listMV.map((mv) => (
+      <ul className="list-song-wrapper-inner" key={mv.id}>
         <li>
           <MVZingChartCard
-            topNumber="zing-chart"
-            numberTitle={song.number}
-            songName={song.name}
-            singerName={song.singer}
+            image={mv.image}
+            songName={mv.name}
+            singerName={mv.singer}
+            topNumber={mv.topNumber}
           />
         </li>
       </ul>

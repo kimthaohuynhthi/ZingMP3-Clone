@@ -10,7 +10,7 @@ const WeeklyAlbumRanking = () => (
   <div className="weekly-album-ranking-wrapper">
     <div className="weekly-album-ranking-wrapper-inner">
       <Title
-        titleName="#ZINGCHART TUẦN - BÀI HÁT"
+        titleName="#ZINGCHART TUẦN - ALBUM"
         fontSize="18px"
         isShow="true"
       />

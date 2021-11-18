@@ -1,0 +1,10 @@
+.list-mv-wrapper {
+  background-color: #FFFFFF;
+  padding: 5px;
+  &-inner{
+  border-bottom: 1px solid #ECECEC;
+    li{
+      list-style: none;
+    }
+  }
+}

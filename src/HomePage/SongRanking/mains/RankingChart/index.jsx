@@ -11,8 +11,8 @@ const RankingChart = () => (
   <div className="ranking-chart-wrapper">
     <div className="ranking-chart-wrapper-inner">
       {top3Song.map((song) => (
-        <ul>
-          <li key={song.id}>
+        <ul key={song.id}>
+          <li>
             <SongInTop3Card
               topNumber={song.number}
               numberTitle={song.number}

@@ -10,9 +10,11 @@ import "./style.scss";
 const AlbumCard = ({ image, songName, singerName }) => (
   <div className="album-card-wrapper">
     <ThumbnailSong image={image} width="140px" height="140px" />
-    <div className="info">
-      <SongInformation songName={songName} singerName={singerName} />
-    </div>
+    <SongInformation
+      className="song-information"
+      songName={songName}
+      singerName={singerName}
+    />
   </div>
 );
 AlbumCard.propTypes = {

@@ -1,13 +1,12 @@
 const vi = {
-  nhaccanhan: "Nhạc Của Tôi",
-  zingchart: "#zing chart",
+  nhaccanhan: "Nhạc cá nhân",
+  zingchart: "#zingchart",
   top100: "Top 100",
-  chude: "Chủ Đề",
+  chude: "Chủ đề",
   video: "Video",
   album: "Album",
-  nghesi: "Nghệ Sĩ",
+  nghesi: "Nghệ sĩ",
   vip: "VIP",
-  tatquangcao: "Turn off ads",
   vi: "Tiếng Việt",
   en: "English",
 };

@@ -1,3 +1,24 @@
 .connection-wrapper {
-  background-color: blue;
+    margin-top: 5px;
+    &-inner{
+        display: inline;
+        a{
+        img{
+            margin-left: 10px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .logo-dmca{
+        display: block;
+        margin-left: -30px;
+        width: 90px;
+    }
+    .mobile-version{
+        margin-left: 50px;
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+    }
+  }
 }

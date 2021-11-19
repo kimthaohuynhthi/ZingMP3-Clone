@@ -49,11 +49,11 @@ const menuFooter = [
 const logoConnection = [
   {
     id: 1,
-    imag: logo1,
+    image: logo2,
   },
   {
     id: 2,
-    image: logo2,
+    image: logo1,
   },
   {
     id: 3,

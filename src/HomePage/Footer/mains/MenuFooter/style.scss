@@ -1,3 +1,21 @@
 .menu-footer-wrapper {
-  background-color: brown;
+  display: flex;
+  width: 500px;
+  ul{
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-left: auto;
+    text-align: left;
+    li {
+      display: inline-block;
+      width: 90px;
+      margin: 0px 10px 10px 0px;
+      text-align: left;
+      a {
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+      }
+    }
+  }
 }

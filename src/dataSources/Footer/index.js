@@ -1,3 +1,8 @@
+import logo1 from "../../assets/Footer/fb.png";
+import logo2 from "../../assets/Footer/zalo.png";
+import logo3 from "../../assets/Footer/google.png";
+import logo4 from "../../assets/Footer/youtube.png";
+
 const menuFooter = [
   {
     id: 1,
@@ -41,4 +46,23 @@ const menuFooter = [
   },
 ];
 
-export { menuFooter };
+const logoConnection = [
+  {
+    id: 1,
+    imag: logo1,
+  },
+  {
+    id: 2,
+    image: logo2,
+  },
+  {
+    id: 3,
+    image: logo3,
+  },
+  {
+    id: 4,
+    image: logo4,
+  },
+];
+
+export { menuFooter, logoConnection };

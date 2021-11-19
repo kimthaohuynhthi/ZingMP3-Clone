@@ -8,20 +8,30 @@ import "./style.scss";
 
 const NavbarMenu = () => (
   <div className="navbar-menu-wrapper">
-    <ul>
-      <li>
-        <a href="/" className="home-icon" title="Zing MP3">
-          <HomeFilled />
-        </a>
-      </li>
-      {menuNavbar.map((menuItem) => (
+    <div className="navbar-menu-wrapper-inner">
+      <ul>
         <li>
-          <a href="/" title={menuItem.title}>
-            {menuItem.label}
+          <a href="/" className="home-icon" title="Zing MP3">
+            <HomeFilled />
           </a>
         </li>
-      ))}
-    </ul>
+        {menuNavbar.map((menuItem) => (
+          <li>
+            <a href="/" title={menuItem.title}>
+              {menuItem.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+      <select
+        className="select-languages"
+        // defaultValue={locale}
+        // onChange={(e) => setLocale(e.target.value)}
+      >
+        <option value="vi">Tiếng Việt</option>
+        <option value="en">Asâs</option>
+      </select>
+    </div>
   </div>
 );
 export default NavbarMenu;

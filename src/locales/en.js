@@ -5,7 +5,7 @@ const en = {
   chude: "Topic",
   video: "Video",
   album: "Album",
-  nghesi: "Singer",
+  nghesi: "Artist",
   vip: "VIP",
   vi: "Tiếng Việt",
   en: "English",

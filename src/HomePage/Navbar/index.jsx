@@ -33,7 +33,6 @@ const Navbar = () => {
         </ul>
         <div className="functional-menu">
           <select
-            className="select-languages"
             defaultValue={locale}
             onChange={(e) => setLocale(e.target.value)}
           >

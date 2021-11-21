@@ -1,0 +1,27 @@
+.functional-menu-wrapper{
+  margin-top: 3px;
+  padding-left: 90px;
+  .turn-off-ads{
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+    &:hover{
+      background-color: #e4e4e4;
+      color: #a845de;
+    }
+    .power-off-icon{
+      margin: 12px 5px 0px 20px;
+      font-size: 14px;
+    }
+  }
+  .upload-icon{
+    font-size: 20px;
+    color: #590985;
+    &:hover{
+      opacity: 0.75;
+      color: #a83fe0;
+      background-color: #e4e4e4;
+    }
+  }
+}

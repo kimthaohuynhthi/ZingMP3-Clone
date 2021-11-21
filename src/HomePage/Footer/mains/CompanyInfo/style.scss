@@ -1,0 +1,14 @@
+.company-info-wrapper {
+  display: flex;
+  margin-top: 10px;
+  img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  .info-company{
+    text-align: left;
+    font-size: 12px;
+    color: gray;
+  }
+}

@@ -4,17 +4,13 @@ import classNames from "classnames";
 // others
 import "./style.scss";
 
-const TopNumber = ({ topNumber, numberTitle, fontSize }) => (
+const TopNumber = ({ topNumber, numberTitle, fontSize, className }) => (
   <div
     className={classNames(
       "top-number-wrapper",
-      "top-number-inner",
-      { "top-1-song-ranking": topNumber === "01" },
-      { "top-2-song-ranking": topNumber === "02" },
-      { "top-3-song-ranking": topNumber === "03" },
-      { "top-1-zing-chart": topNumber === "top-1-zing-chart" },
-      { "zing-chart": topNumber === "zing-chart" },
-      { "others-song-ranking": topNumber === "others" }
+      "top-number-wrapper-inner",
+      { [`top-${topNumber}-song-ranking`]: true },
+      className
     )}
     style={{ fontSize }}
   >
@@ -25,6 +21,7 @@ TopNumber.propTypes = {
   topNumber: PropTypes.string,
   numberTitle: PropTypes.string,
   fontSize: PropTypes.string,
+  className: PropTypes.string,
 };
 
 export default TopNumber;

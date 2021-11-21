@@ -1,7 +1,9 @@
 .video-card-wrapper {
   padding: 1px;
   text-align: left;
-  .info{
-    width: 140px;
+  &-inner{
+    .video-information{
+      width: 140px;
+    }
   }
 }

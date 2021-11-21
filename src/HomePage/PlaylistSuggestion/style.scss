@@ -1,11 +1,13 @@
 .playlist-suggestion-wrapper {
   grid-area: playlist-suggestion;
-  .title{
-    margin-top: 10px;
-    margin-left: 10px;
-    text-align: left;
-    font-size: 26px;
-    font-weight:lighter;
-    color: purple;
+  &-inner{
+    .title{
+      margin-top: 10px;
+      margin-left: 10px;
+      text-align: left;
+      font-size: 26px;
+      font-weight:lighter;
+      color: purple;
+    }
   }
 }

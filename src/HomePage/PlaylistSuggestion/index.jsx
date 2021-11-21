@@ -7,8 +7,8 @@ import "./style.scss";
 
 const PlaylistSuggestion = () => (
   <div className="playlist-suggestion-wrapper">
-    <h3 className="title">LỰA CHỌN HÔM NAY</h3>
-    <div>
+    <div className="playlist-suggestion-wrapper-inner">
+      <h3 className="title">LỰA CHỌN HÔM NAY</h3>
       <ListPlaylist />
     </div>
   </div>

@@ -1,4 +1,19 @@
 .hot-artist-wrapper {
-  background-color: #12c23e;
   grid-area: hot-artist;
+  &-inner{
+    .first-image{
+      position: absolute;
+      margin: 10px 0px 0px 0px;
+    }
+    ul{
+      margin-left: 170px;
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      li {
+        margin: 0px 0px 10px 10px;
+      }
+    }
+  }
 }

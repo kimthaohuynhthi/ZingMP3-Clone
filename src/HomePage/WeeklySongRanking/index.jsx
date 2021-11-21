@@ -19,12 +19,13 @@ const WeeklySongRanking = () => (
         isShow="true"
       />
       <MenuZingChart />
-      <div className="banner">
-        <BannerTop1 image={banner} width="100%" height="120px" />
-      </div>
-      <div className="list-song-in-top">
-        <ListSong />
-      </div>
+      <BannerTop1
+        className="banner"
+        image={banner}
+        width="100%"
+        height="120px"
+      />
+      <ListSong className="list-song-in-top" />
     </div>
   </div>
 );

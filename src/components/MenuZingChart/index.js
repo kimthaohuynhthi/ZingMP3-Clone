@@ -10,7 +10,7 @@ const MenuZingChart = () => (
     {menuZingChart.map((menuItem, index) => (
       <li key={menuItem}>
         <a
-          href="/"
+          href="#"
           className={classNames({ active: index === 0 })}
           title={menuItem.title}
         >

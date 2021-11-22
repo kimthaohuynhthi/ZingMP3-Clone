@@ -1,12 +1,18 @@
-import HomePage from './HomePage'
-import './App.css'
+// components
+import HomePage from "./HomePage";
+// contexts
+import { ProvideLocale } from "./contexts/LocaleContexts";
+// others
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <ProvideLocale>
+        <HomePage />
+      </ProvideLocale>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

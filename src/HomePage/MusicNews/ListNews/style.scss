@@ -1,0 +1,10 @@
+.list-news-wrapper {
+  background-color: #FFFFFF;
+  &-inner{
+    margin: -10px 0 0 10px;
+    border-bottom: 1px solid #ECECEC;
+    li{
+      list-style: none;
+    }
+  }
+}

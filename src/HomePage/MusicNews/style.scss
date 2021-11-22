@@ -1,5 +1,14 @@
 .music-news-wrapper {
-  background-color: #819700;
   margin-top: 20px;
   grid-area: music-news;
+  img{
+   margin-top: 10px;
+   max-height: 210px;
+  }
+  p{
+    display:flex;
+    position: absolute;
+    margin: -40px 0px 0px 20px;
+    color: white;
+  }
 }

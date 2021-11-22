@@ -7,7 +7,7 @@ import "./style.scss";
 const SeeMore = () => (
   <div className="see-more-wrapper">
     <div className="see-more-wrapper-inner">
-      <a href="/">
+      <a href="#">
         Xem thêm Chủ Đề khác
         <RightOutlined className="icon" />
       </a>

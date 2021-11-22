@@ -1,7 +1,7 @@
 // libs
 import React from "react";
 // components
-import Title from "./mains/Title";
+import Title from "./mains/TitleHotTopic";
 import SeeMore from "./mains/SeeMore";
 // others
 import "./style.scss";

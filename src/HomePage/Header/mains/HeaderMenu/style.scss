@@ -5,22 +5,5 @@
   li {
     list-style: none;
     float: left;
-    a {
-      display: block;
-      padding: 0px 10px 0px 10px;
-      font-size: 14px;
-      line-height: 50px;
-      color: white;
-      text-decoration: none;
-      &:hover{
-        background-color:black;
-        color: #a845de;
-        };
-        border:0!important;
-      }
-      .active {
-        background-color: black;
-        color: #a845de;
-      }    
   }  
 }

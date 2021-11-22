@@ -10,7 +10,7 @@ import "./style.scss";
 const Banner = () => (
   <div className="banner-wrapper">
     <div className="banner-wrapper-inner" title="Playlist của bạn">
-      <a href="/">
+      <a href="#">
         <img src={image} alt="music-for-you" />
       </a>
       <PlayCircleOutlined className="play-icon" />

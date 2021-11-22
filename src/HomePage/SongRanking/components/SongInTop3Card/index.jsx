@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 // components
 import TopNumber from "../../../../components/TopNumber";
 import ThumbnailSong from "../../../../components/ThumbnailSong";
-import SongInfo from "../../../../components/SongInfoInTop3";
+import SongInfoTop3 from "../../../../components/SongInfoInTop3";
 // others
 import "./style.scss";
 
@@ -18,26 +18,29 @@ const SongInTop3Card = ({
 }) => (
   <div className="card-wrapper">
     <div className="card-wrapper-inner">
-      <div className="top-number">
-        <TopNumber
-          topNumber={topNumber}
-          numberTitle={numberTitle}
-          fontSize="12px"
-        />
-      </div>
-      <div className="thumbnail">
-        <ThumbnailSong image={image} width="30px" height="31px" />
-      </div>
-      <div className="song-info">
-        <SongInfo songName={songName} singerName={singerName} />
-      </div>
-      <div className="percent">
-        <TopNumber
-          topNumber={topNumber}
-          numberTitle={percent}
-          fontSize="12px"
-        />
-      </div>
+      <TopNumber
+        className="top-number"
+        topNumber={topNumber}
+        numberTitle={numberTitle}
+        fontSize="12px"
+      />
+      <ThumbnailSong
+        className="thumbnail-song"
+        image={image}
+        width="30px"
+        height="31px"
+      />
+      <SongInfoTop3
+        className="song-info"
+        songName={songName}
+        singerName={singerName}
+      />
+      <TopNumber
+        className="percent"
+        topNumber={topNumber}
+        numberTitle={percent}
+        fontSize="12px"
+      />
     </div>
   </div>
 );

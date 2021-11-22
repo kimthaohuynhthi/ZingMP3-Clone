@@ -1,5 +1,7 @@
 // libs
 import React from "react";
+// components
+import MenuItems from "../../../../components/MenuItems";
 // dataSources
 import menuHeader from "../../../../dataSources/Header";
 // others
@@ -9,10 +11,8 @@ const HeaderMenu = () => (
   <div className="header-menu-wrapper">
     <ul>
       {menuHeader.map((menuItem) => (
-        <li>
-          <a href="/" title={menuItem.title}>
-            {menuItem.label}
-          </a>
+        <li key={menuItem.id}>
+          <MenuItems title={menuItem.title} label={menuItem.label} />
         </li>
       ))}
     </ul>

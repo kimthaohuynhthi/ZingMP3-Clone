@@ -1,8 +1,8 @@
 .banner-wrapper {
   &-inner{
       position: absolute;
-      margin-top: -115px;
-      margin-left: 20px; 
+      top: 28px;
+      left: 25px;
       &:hover{
         filter: brightness(60%);
       }
@@ -13,8 +13,8 @@
       .play-icon {
         display: block;
         position: absolute;
-        margin-top: -75px;
-        margin-left: 20px;
+        left: 20px;
+        top: 20px;
         font-size: 50px;
         color: #FCFCFC;
         opacity: 0.7;

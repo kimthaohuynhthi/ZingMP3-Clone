@@ -10,7 +10,12 @@ import "./style.scss";
 const VideoCard = ({ image, songName, singerName }) => (
   <div className="video-card-wrapper">
     <div className="video-card-wrapper-inner">
-      <ThumbnailSong image={image} width="140px" height="auto" />
+      <ThumbnailSong
+        image={image}
+        width="140px"
+        height="auto"
+        isShowIcon="true"
+      />
       <SongInformation
         className="video-information"
         songName={songName}

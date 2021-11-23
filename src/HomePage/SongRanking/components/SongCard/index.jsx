@@ -25,6 +25,7 @@ const SongCard = ({ topNumber, numberTitle, image, songName, singerName }) => (
         image={image}
         width="60px"
         height="61px"
+        isShowIcon="true"
       />
       <SongInformation
         className="song-info"

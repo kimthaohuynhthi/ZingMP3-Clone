@@ -1,10 +1,9 @@
 .song-card-wrapper {
   position: relative;
   display: flex;
-  &-inner{
+  &-inner{ 
     .thumbnail-new-song{
       text-align: left;
-      margin: 0px;
     }
     .song-info-new-song{
       position: absolute;

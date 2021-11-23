@@ -1,12 +1,15 @@
 .thumbnail-song-wrapper {
-  position: relative;
+  display:grid;
   &-inner{
+    position: relative;
+    display: block;
     text-decoration: none;
     img{
       border: 1px solid #ffffff;
-      &:hover{
-        filter: brightness(60%);
-      }
+    }
+    .play-song-icon { 
+      display: none;
+      color: white;
     }
     .top-number-mv{
       position: absolute;
@@ -16,5 +19,16 @@
       line-height: 40px;
       color: white;
     }
+    &:hover {
+      filter: brightness(70%);
+      .show {
+          display: grid;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 35px;
+      }  
+  }
   }
 }

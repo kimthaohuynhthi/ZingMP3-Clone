@@ -10,6 +10,7 @@ const initialState = {
   dataZingChartAlbum: [],
   dataVietnameseSong: [],
   dataArtist: [],
+  dataPlaylist: [],
 };
 
 const dataReducer = (state = initialState, action) => {
@@ -58,6 +59,11 @@ const dataReducer = (state = initialState, action) => {
       return {
         ...state,
         dataArtist: action.payload,
+      };
+    case actionTypes.FETCH_PLAYLIST:
+      return {
+        ...state,
+        dataPlaylist: action.payload,
       };
     default:
       return state;

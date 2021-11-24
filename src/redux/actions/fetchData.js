@@ -44,3 +44,8 @@ export const fetchArtist = (data) => ({
   type: action.FETCH_HOT_ARTIST,
   payload: data,
 });
+
+export const fetchPlaylist = (data) => ({
+  type: action.FETCH_PLAYLIST,
+  payload: data,
+});

@@ -85,5 +85,11 @@ const listalbum = [
     singerName: "G5R Squad, Anh Rồng",
     img: album12,
   },
+  {
+    id: "13",
+    albumName: "Đọc Đúng Sách, Yêu Đúng Cách (Lofi Version) (Single)",
+    singerName: "G5R Squad, Anh Rồng",
+    img: album12,
+  },
 ];
 export default listalbum;

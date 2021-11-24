@@ -1,30 +1,47 @@
 // libs
+import { Button } from "antd";
 import PropTypes from "prop-types";
+import classNames from "classnames";
 // others
 import "./style.scss";
 
-const Pagination = ({ page }) => {
-  const { currentPage, itemsPerPage, total } = page;
-  const maxPage = Math.ceil(total / itemsPerPage);
+const Pagination = ({ currentPage, total, onPageChange }) => {
+  const maxPage = Math.ceil(total / 12);
+
+  const handlePageChange = (newPage) => {
+    onPageChange(newPage);
+  };
 
   return (
     <div className="pagination-wrapper">
-      <a href="#" className="previous">
+      <Button
+        className={classNames("previous", { disable: currentPage === 1 })}
+        onClick={() => handlePageChange(currentPage - 1)}
+      >
         &laquo;
-      </a>
+      </Button>
       <p>
         {currentPage}/{maxPage}
       </p>
-      <a href="#" className="next">
+      <Button
+        className={classNames("next", { disable: currentPage === maxPage })}
+        onClick={() => handlePageChange(currentPage + 1)}
+      >
         &raquo;
-      </a>
+      </Button>
     </div>
   );
 };
 
 Pagination.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  page: PropTypes.object.isRequired,
+  currentPage: PropTypes.string.isRequired,
+  total: PropTypes.string.isRequired,
+  onPageChange: PropTypes.func.isRequired,
+};
+
+Pagination.defaultProps = {
+  // eslint-disable-next-line react/default-props-match-prop-types
+  onPageChange: null,
 };
 
 export default Pagination;

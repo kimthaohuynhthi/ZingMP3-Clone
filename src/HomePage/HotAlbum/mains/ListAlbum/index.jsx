@@ -12,7 +12,7 @@ import "./style.scss";
 
 const ListAlbum = () => {
   const dispatch = useDispatch();
-  const stateAlbum = useSelector((state) => state.dataReducer.data);
+  const stateAlbum = useSelector((state) => state.dataReducer.dataAlbum);
 
   useEffect(() => {
     dispatch(fetchAlbumHot(listAlbum));

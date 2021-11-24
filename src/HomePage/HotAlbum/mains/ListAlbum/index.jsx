@@ -2,6 +2,7 @@
 import React from "react";
 // components
 import AlbumCard from "../../components/AlbumCard";
+import Pagination from "../../../../components/Pagination";
 // mocks
 import listAlbum from "../../../../mocks/ListAlbum";
 // others
@@ -20,6 +21,7 @@ const ListAlbum = () => (
         </li>
       ))}
     </ul>
+    <Pagination page={{ currentPage: 1, itemsPerPage: 12, total: 12 }} />
   </div>
 );
 export default ListAlbum;

@@ -2,6 +2,7 @@
 import React from "react";
 // components
 import VideoCard from "../../components/VideoCard";
+import Pagination from "../../../../components/Pagination";
 // mocks
 import listVideo from "../../../../mocks/ListVideo";
 // others
@@ -20,6 +21,7 @@ const ListVideo = () => (
         </li>
       ))}
     </ul>
+    <Pagination page={{ currentPage: 1, itemsPerPage: 12, total: 12 }} />
   </div>
 );
 export default ListVideo;

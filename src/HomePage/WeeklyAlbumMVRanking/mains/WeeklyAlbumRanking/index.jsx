@@ -16,7 +16,7 @@ const WeeklyAlbumRanking = () => (
       <Title
         titleName="#ZINGCHART TUẦN - ALBUM"
         fontSize="18px"
-        isShow="true"
+        isShow={Boolean(true)}
       />
       <MenuZingChart />
       <Banner

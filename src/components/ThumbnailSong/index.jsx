@@ -31,7 +31,7 @@ ThumbnailSong.propTypes = {
   height: PropTypes.string,
   className: PropTypes.string,
   topNumber: PropTypes.string,
-  isShowIcon: PropTypes.string,
+  isShowIcon: PropTypes.bool,
 };
 
 export default ThumbnailSong;

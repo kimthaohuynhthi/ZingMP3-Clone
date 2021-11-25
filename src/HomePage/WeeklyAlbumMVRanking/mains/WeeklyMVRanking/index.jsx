@@ -13,7 +13,11 @@ import "./style.scss";
 const WeeklyMVRanking = () => (
   <div className="weekly-mv-ranking-wrapper">
     <div className="weekly-mv-ranking-wrapper-inner">
-      <Title titleName="#ZINGCHART TUẦN - MV" fontSize="18px" isShow="true" />
+      <Title
+        titleName="#ZINGCHART TUẦN - MV"
+        fontSize="18px"
+        isShow={Boolean(true)}
+      />
       <MenuZingChart />
       <Banner
         className="banner"

@@ -13,7 +13,7 @@ const PlaylistCard = ({ image, songName, singerName }) => (
       image={image}
       width="140px"
       height="140px"
-      isShowIcon="true"
+      isShowIcon={Boolean(true)}
     />
     <SongInformation
       className="playlist-info"

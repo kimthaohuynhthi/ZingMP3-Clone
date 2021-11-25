@@ -14,7 +14,7 @@ const VideoCard = ({ image, songName, singerName }) => (
         image={image}
         width="140px"
         height="auto"
-        isShowIcon="true"
+        isShowIcon={Boolean(true)}
       />
       <SongInformation
         className="video-information"

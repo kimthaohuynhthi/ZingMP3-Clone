@@ -1,9 +1,18 @@
 import { actionTypes } from "../types/index";
 
-export const fetchAlbumHot = (data) => ({
-  type: actionTypes.FETCH_ALBUM_HOT,
-  payload: data,
-});
+// export const fetchAlbumHot = (data) => ({
+//   type: actionTypes.FETCH_ALBUM_HOT,
+//   payload: data,
+// });
+
+export const fetchAlbumHot = (data) => async (dispatch) => {
+  dispatch({ type: actionTypes.FETCH_ALBUM_HOT_LOADING });
+  try {
+    dispatch({ type: actionTypes.FETCH_ALBUM_HOT_SUCCESS, payload: data });
+  } catch (error) {
+    dispatch({ type: actionTypes.FETCH_ALBUM_HOT_FAILED });
+  }
+};
 
 export const fetchVideoHot = (data) => ({
   type: actionTypes.FETCH_VIDEO_HOT,

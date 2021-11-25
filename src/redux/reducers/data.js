@@ -11,14 +11,26 @@ const initialState = {
   dataVietnameseSong: [],
   dataArtist: [],
   dataPlaylist: [],
+  isLoading: false,
 };
 
 const dataReducer = (state = initialState, action) => {
   switch (action.type) {
-    case actionTypes.FETCH_ALBUM_HOT:
+    case actionTypes.FETCH_ALBUM_HOT_SUCCESS:
       return {
         ...state,
         dataAlbum: action.payload,
+        isLoading: false,
+      };
+    case actionTypes.FETCH_ALBUM_HOT_LOADING:
+      return {
+        ...state,
+        isLoading: true,
+      };
+    case actionTypes.FETCH_ALBUM_HOT_FAILED:
+      return {
+        ...state,
+        isLoading: false,
       };
     case actionTypes.FETCH_VIDEO_HOT:
       return {

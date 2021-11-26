@@ -12,12 +12,12 @@ import listAlbum from "../../../../mocks/ListAlbum";
 import "./style.scss";
 
 const ListAlbum = () => {
-  const [hover, setHover] = useHover();
+  const [hover, isHovered] = useHover();
   const { begin, end, currentPage, handlePageChange } = usePagination({
     currPage: 1,
     itemsPerPage: 12,
     totalData: listAlbum.length,
-    isHover: setHover,
+    isHover: isHovered,
   });
 
   return (

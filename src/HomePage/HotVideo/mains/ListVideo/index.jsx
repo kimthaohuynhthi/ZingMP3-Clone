@@ -12,12 +12,12 @@ import listVideo from "../../../../mocks/ListVideo";
 import "./style.scss";
 
 const ListVideo = () => {
-  const [hover, setHover] = useHover();
+  const [hover, isHovered] = useHover();
   const { begin, end, currentPage, handlePageChange } = usePagination({
     currPage: 1,
     itemsPerPage: 12,
     totalData: listVideo.length,
-    isHover: setHover,
+    isHover: isHovered,
   });
 
   return (

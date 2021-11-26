@@ -11,8 +11,18 @@ import album9 from "../assets/HotAlbum/album9.jpg";
 import album10 from "../assets/HotAlbum/album10.jpg";
 import album11 from "../assets/HotAlbum/album11.jpg";
 import album12 from "../assets/HotAlbum/album12.jpg";
+import album13 from "../assets/HotAlbum/album13.jpg";
+import album14 from "../assets/HotAlbum/album14.jpg";
+import album15 from "../assets/HotAlbum/album15.jpg";
+import album16 from "../assets/HotAlbum/album16.jpg";
+import album17 from "../assets/HotAlbum/album17.jpg";
+import album18 from "../assets/HotAlbum/album18.jpg";
+import album19 from "../assets/HotAlbum/album19.jpg";
+import album20 from "../assets/HotAlbum/album20.jpg";
+import album21 from "../assets/HotAlbum/album21.jpg";
+import album22 from "../assets/HotAlbum/album22.jpg";
 
-const listalbum = [
+const listAlbum = [
   {
     id: "01",
     albumName: "Dream (Single)",
@@ -70,7 +80,7 @@ const listalbum = [
   {
     id: "10",
     albumName: "Anh Vẫn Ở Đây (Single)",
-    singerName: "ĐThành Đạt",
+    singerName: "Thành Đạt",
     img: album10,
   },
   {
@@ -87,9 +97,63 @@ const listalbum = [
   },
   {
     id: "13",
-    albumName: "Đọc Đúng Sách, Yêu Đúng Cách (Lofi Version) (Single)",
-    singerName: "G5R Squad, Anh Rồng",
-    img: album12,
+    albumName: "Vấn Vương",
+    singerName: "Phú Quí",
+    img: album13,
+  },
+  {
+    id: "14",
+    albumName: "Tiếng Gọi Nơi Anh (Single)",
+    singerName: "Chi Dân",
+    img: album14,
+  },
+  {
+    id: "15",
+    albumName: "Không Bằng (Single)",
+    singerName: "Huy Vạc",
+    img: album15,
+  },
+  {
+    id: "16",
+    albumName: "Mẹ Yêu (Tilo Remix) (Single)",
+    singerName: "Quang Hà",
+    img: album16,
+  },
+  {
+    id: "17",
+    albumName: "Phận Đành Tan 4 (Single)",
+    singerName: "Lee Ken, Gumin",
+    img: album17,
+  },
+  {
+    id: "18",
+    albumName: "Tâm Trí Tôi Say (Single)",
+    singerName: "Chí Thiện",
+    img: album18,
+  },
+  {
+    id: "19",
+    albumName: "Có Anh Cùng Em (Single)",
+    singerName: "T-Passion",
+    img: album19,
+  },
+  {
+    id: "20",
+    albumName: "Quên Người Đã Quá Yêu (Single)",
+    singerName: "Hà Duy Thái, Freak D, DC Tâm",
+    img: album20,
+  },
+  {
+    id: "21",
+    albumName: "Bến Đò Vẫn Đợi (Single)",
+    singerName: "Huỳnh Phong, Thắng Trầm",
+    img: album21,
+  },
+  {
+    id: "22",
+    albumName: "Ai Chung Tình Được Mãi (Single)",
+    singerName: "Đinh Tùng Huy, ACV",
+    img: album22,
   },
 ];
-export default listalbum;
+export default listAlbum;

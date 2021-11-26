@@ -5,19 +5,22 @@ import AlbumCard from "../../components/AlbumCard";
 import Pagination from "../../../../components/Pagination";
 // hooks
 import usePagination from "../../../../hooks/usePagination";
+import useHover from "../../../../hooks/useHover";
 // mocks
 import listAlbum from "../../../../mocks/ListAlbum";
 // others
 import "./style.scss";
 
 const ListAlbum = () => {
+  const [hover, setHover] = useHover();
   const { begin, end, currentPage, handlePageChange } = usePagination({
     currPage: 1,
     itemsPerPage: 12,
+    isHover: setHover,
   });
 
   return (
-    <div className="list-album-wrapper">
+    <div className="list-album-wrapper" ref={hover}>
       <ul className="list-album-wrapper-inner">
         {listAlbum.slice(begin, end).map((album) => (
           <li key={album.id}>

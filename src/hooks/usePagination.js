@@ -2,7 +2,7 @@ import { useState } from "react";
 // hooks
 import useEventListener from "./useEventListener";
 
-const usePagination = ({ currPage, itemsPerPage }) => {
+const usePagination = ({ currPage, itemsPerPage, isHover }) => {
   const [currentPage, setCurrentPage] = useState(currPage);
   const begin = (currentPage - 1) * itemsPerPage;
   const end = begin + itemsPerPage;
@@ -11,31 +11,23 @@ const usePagination = ({ currPage, itemsPerPage }) => {
     setCurrentPage(newPage);
   };
 
-  const keyCode = {
-    arrowUp: 38,
-    arrowDown: 40,
-  };
-
   const handleKeyChange = (e) => {
-    console.log("vo hay k vo noi 1 loi");
-    switch (e) {
-      case keyCode.arrowDown: {
-        e.preventDefault();
-        handlePageChange(currPage - 1);
+    switch (e.key) {
+      case "ArrowRight": {
+        handlePageChange(currentPage + 1);
         break;
       }
-      case keyCode.arrowUp: {
-        e.preventDefault();
-        handlePageChange(currPage + 1);
+      case "ArrowLeft": {
+        if (currentPage !== 1) handlePageChange(currentPage - 1);
         break;
       }
       default:
-        return currPage;
+        return currentPage;
     }
-    return currPage;
+    return currentPage;
   };
 
-  useEventListener("keydown", handleKeyChange);
+  useEventListener("keydown", isHover, handleKeyChange);
 
   return {
     begin,

@@ -139,8 +139,8 @@ const listAlbum = [
   },
   {
     id: "20",
-    albumName: "Quên Người Đã Quá Yêu (Single)",
-    singerName: "Hà Duy Thái, Freak D, DC Tâm",
+    albumName: "Đọc Đúng Sách, Yêu Đúng Cách (Lofi Version) (Single)",
+    singerName: "G5R Squad, Anh Rồng",
     img: album20,
   },
   {

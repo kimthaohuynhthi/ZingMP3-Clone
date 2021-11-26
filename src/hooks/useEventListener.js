@@ -13,7 +13,7 @@ const useEventListener = (eventName, isHover, handler) => {
         window.removeEventListener(eventName, handler);
       };
     },
-    [eventName, isHover, handler] // Re-run if eventName or element changes
+    [eventName, isHover, handler] //Recall only if eventName or element changes
   );
 };
 export default useEventListener;

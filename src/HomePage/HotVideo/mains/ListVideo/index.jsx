@@ -14,6 +14,7 @@ const ListVideo = () => {
   const { begin, end, currentPage, handlePageChange } = usePagination({
     currPage: 1,
     itemsPerPage: 12,
+    totalData: listVideo.length,
   });
 
   return (

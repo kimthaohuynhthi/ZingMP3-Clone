@@ -2,8 +2,9 @@ import { useState } from "react";
 // hooks
 import useEventListener from "./useEventListener";
 
-const usePagination = ({ currPage, itemsPerPage, isHover }) => {
+const usePagination = ({ currPage, itemsPerPage, totalData, isHover }) => {
   const [currentPage, setCurrentPage] = useState(currPage);
+  const totalPages = Math.ceil(totalData / itemsPerPage);
   const begin = (currentPage - 1) * itemsPerPage;
   const end = begin + itemsPerPage;
 
@@ -14,7 +15,7 @@ const usePagination = ({ currPage, itemsPerPage, isHover }) => {
   const handleKeyChange = (e) => {
     switch (e.key) {
       case "ArrowRight": {
-        handlePageChange(currentPage + 1);
+        if (currentPage < totalPages) handlePageChange(currentPage + 1);
         break;
       }
       case "ArrowLeft": {

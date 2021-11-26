@@ -15,11 +15,13 @@ const usePagination = ({ currPage, itemsPerPage, totalData, isHover }) => {
 
   const handleKeyChange = (e) => {
     switch (e.key) {
-      case "ArrowRight": {
+      case "PageUp": {
+        e.preventDefault();
         if (currentPage < totalPages) handlePageChange(currentPage + 1);
         break;
       }
-      case "ArrowLeft": {
+      case "PageDown": {
+        e.preventDefault();
         if (currentPage !== 1) handlePageChange(currentPage - 1);
         break;
       }

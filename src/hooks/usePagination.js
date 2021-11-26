@@ -1,3 +1,4 @@
+// libs
 import { useState } from "react";
 // hooks
 import useEventListener from "./useEventListener";
@@ -23,9 +24,9 @@ const usePagination = ({ currPage, itemsPerPage, totalData, isHover }) => {
         break;
       }
       default:
-        return currentPage;
+        return false;
     }
-    return currentPage;
+    return false;
   };
 
   useEventListener("keydown", isHover, handleKeyChange);

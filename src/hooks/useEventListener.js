@@ -7,8 +7,6 @@ const useEventListener = (eventName, isHover, handler) => {
       const isSupported = window && window.addEventListener;
       if (!isSupported) return false;
       if (isHover) window.addEventListener(eventName, handler);
-      else window.removeEventListener(eventName, handler);
-
       return () => {
         window.removeEventListener(eventName, handler);
       };

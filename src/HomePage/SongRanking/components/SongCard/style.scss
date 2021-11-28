@@ -1,22 +1,30 @@
 .song-card-wrapper {
-  display: flex;
+  margin-bottom: 30px;
+  margin-left: -30px;
   &-inner{
-    margin-bottom: 33px;
+    display: inline;
     .top-number {
-      margin: 0px 0px 0px -40px;
+      margin-top: 5px;
     }
     .minus-icon{
-      display: block;
-      margin: -26px 0px 0px -560px;
+      position:absolute;
+      top:20px;
+      left: 50px;
     }
     .thumbnail{
-      margin: -35px 0px 0px -420px;
+      position:absolute;
+      top: 0px;
+      left: 100px;
     }
     .song-info{
-      margin: -70px 0px 0px 130px;
+      position:absolute;
+      top:0px;
+      left: 180px;
     }
     .functional-icon-song-ranking{
-      margin: -20px 0px 0px 520px;
+      position:absolute;
+      top:10px;
+      left: 550px;
     }
   }
 }

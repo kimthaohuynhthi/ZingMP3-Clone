@@ -9,7 +9,12 @@ import "./style.scss";
 
 const PlaylistCard = ({ image, songName, singerName }) => (
   <div className="playlist-card-wrapper">
-    <ThumbnailSong image={image} width="140px" height="140px" />
+    <ThumbnailSong
+      image={image}
+      width="140px"
+      height="140px"
+      isShowIcon={Boolean(true)}
+    />
     <SongInformation
       className="playlist-info"
       songName={songName}

@@ -1,19 +1,26 @@
 .card-wrapper {
   display: flex;
   margin-right: 10px;
+  width: 190px;
   &-inner{
     .top-number {
-      margin-left: 0px;
-      margin-top: 2px;
+      position:absolute;
+      bottom: 3px;
      }
     .thumbnail-song {
-      margin:-36px 0px 0px -100px;
+      position:absolute;
+      left: 30px;
+      bottom: 3px;
     }
     .song-info{
-     margin: -40px 0px 0px 70px;
+      position:absolute;
+      left: 70px;
+      bottom: 8px;
     }
     .percent{
-      margin: -34px 0px 0px 160px;
+      position:absolute;
+      top: 2px;
+      right: 5px;
     } 
   }
 }

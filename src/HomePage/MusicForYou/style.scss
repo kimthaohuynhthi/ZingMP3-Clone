@@ -1,6 +1,7 @@
 .music-for-you-wrapper {
   grid-area: music-for-you;
   &-inner{
+    position: relative;
     padding: 8px;
   }
 }

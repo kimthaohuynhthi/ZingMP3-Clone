@@ -5,14 +5,12 @@ import { ProvideLocale } from "./contexts/LocaleContexts";
 // others
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <ProvideLocale>
-        <HomePage />
-      </ProvideLocale>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <ProvideLocale>
+      <HomePage />
+    </ProvideLocale>
+  </div>
+);
 
 export default App;

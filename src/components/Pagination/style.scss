@@ -1,0 +1,23 @@
+.pagination-wrapper {
+  display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .previous {
+        margin-right: 10px;
+        &-hover {
+          background-color: #ddd;
+          color: black;
+        }
+      }
+    .next {
+      margin-left: 10px;
+      margin-right: 15px;
+      &-hover {
+        background-color: #ddd;
+        color: black;
+      }
+      }
+      .disable{
+        pointer-events: none;
+      }
+}

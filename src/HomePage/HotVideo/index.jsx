@@ -12,4 +12,5 @@ const HotVideo = () => (
     <ListVideo />
   </div>
 );
+
 export default HotVideo;

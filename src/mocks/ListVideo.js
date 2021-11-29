@@ -11,6 +11,10 @@ import video9 from "../assets/HotVideo/video9.jpg";
 import video10 from "../assets/HotVideo/video10.jpg";
 import video11 from "../assets/HotVideo/video11.jpg";
 import video12 from "../assets/HotVideo/video12.jpg";
+import video13 from "../assets/HotVideo/video13.jpg";
+import video14 from "../assets/HotVideo/video14.jpg";
+import video15 from "../assets/HotVideo/video15.jpg";
+import video16 from "../assets/HotVideo/video16.jpg";
 
 const listVideo = [
   {
@@ -84,6 +88,72 @@ const listVideo = [
     videoName: "Ngựa Ô Duyên Tình",
     singerName: "Phạm Sắc Lệnh, Jiren K",
     img: video12,
+  },
+  {
+    id: "13",
+    videoName: "Quay Lại Lại Yêu",
+    singerName: "Ngô Kiến Huy, Vương Anh Tú",
+    img: video13,
+  },
+  {
+    id: "14",
+    videoName: "Đom Đóm",
+    singerName: "Jack",
+    img: video14,
+  },
+  {
+    id: "15",
+    videoName: "Người Ta Đâu Thương Em",
+    singerName: "Lily",
+    img: video15,
+  },
+  {
+    id: "16",
+    videoName: "Anh Luôn Là Lý Do",
+    singerName: "ERIK",
+    img: video16,
+  },
+  {
+    id: "17",
+    videoName: "Ngựa Ô Duyên Tình",
+    singerName: "Phạm Sắc Lệnh, Jiren K",
+    img: video7,
+  },
+  {
+    id: "18",
+    videoName: "Ngựa Ô Duyên Tình",
+    singerName: "Phạm Sắc Lệnh, Jiren K",
+    img: video6,
+  },
+  {
+    id: "19",
+    videoName: "Đô Trưởng (New Version)",
+    singerName: "Đạt G",
+    img: video10,
+  },
+  {
+    id: "20",
+    videoName: "Ngựa Ô Duyên Tình",
+    singerName: "Phạm Sắc Lệnh, Jiren K",
+    img: video4,
+  },
+  {
+    id: "21",
+    videoName: "Ngựa Ô Duyên Tình",
+    singerName: "Phạm Sắc Lệnh, Jiren K",
+    img: video3,
+  },
+  {
+    id: "22",
+    videoName: "Ngựa Ô Duyên Tình",
+    singerName: "Phạm Sắc Lệnh, Jiren K",
+    img: video2,
+  },
+  {
+    id: "23",
+    videoName: "Ngựa Ô Duyên Tình",
+    singerName: "Phạm Sắc Lệnh, Jiren K",
+    img: video1,
   },
 ];
 export default listVideo;

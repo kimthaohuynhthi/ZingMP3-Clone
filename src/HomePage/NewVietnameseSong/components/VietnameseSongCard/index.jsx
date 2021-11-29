@@ -15,6 +15,7 @@ const VietNameseSongCard = ({ image, songName, singerName }) => (
         className="thumbnail-new-song"
         image={image}
         width="50px"
+        isShowIcon={Boolean(true)}
       />
       <SongInformation
         className="song-info-new-song"

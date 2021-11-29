@@ -21,7 +21,7 @@ const Title = ({ titleName, fontSize, isShow, className }) => (
 Title.propTypes = {
   titleName: PropTypes.string,
   fontSize: PropTypes.string,
-  isShow: PropTypes.string,
+  isShow: PropTypes.bool,
   className: PropTypes.string,
 };
 export default Title;

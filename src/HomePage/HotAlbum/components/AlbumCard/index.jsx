@@ -9,7 +9,12 @@ import "./style.scss";
 
 const AlbumCard = ({ image, songName, singerName }) => (
   <div className="album-card-wrapper">
-    <ThumbnailSong image={image} width="140px" height="140px" />
+    <ThumbnailSong
+      image={image}
+      width="140px"
+      height="140px"
+      isShowIcon={Boolean(true)}
+    />
     <SongInformation
       className="song-information"
       songName={songName}
